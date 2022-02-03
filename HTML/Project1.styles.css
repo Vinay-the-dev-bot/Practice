@@ -1,0 +1,498 @@
+div3{
+    margin: 0;
+    padding: 0;
+   }
+ 
+  header{
+
+      background-image: url("Lammbboo.jpg") ;
+      height: 657px;
+      width: 1340x;
+      background-size:cover;
+      background-position: center;
+     
+
+  }
+  .nav{
+      float: right;
+      list-style: none;
+     
+  }
+
+  .nav li{
+      display: inline-block;
+  }
+
+  .nav li a{
+      text-decoration: none;
+     padding: 5px 20px;
+     color: rgb(0, 0, 0);
+     font-size: 150%;
+     margin:10px;
+    
+  }
+  .nav li a:hover{
+      font-size: 200%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      border-radius: 500px;
+      border: 1px black;
+     
+      background: gray;
+      
+  }
+  .tagLine{
+      font-size: 270%;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      position: absolute;
+      margin-left: 850px;
+      margin-top: 450px;
+  }
+  .BuyNow a:hover { 
+      font-size: 70%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      border-radius: 50px;
+      border: 1px black;  
+      background-color: rgba(108, 109, 101, 0.212) ;
+
+  }
+  .BuyNow a { 
+      text-decoration: none;
+      font-size: 80%;
+      color: thistle;
+      background-color: transparent;
+      margin-top: 00px;
+      margin-left: 300px;
+
+  }
+  
+  body {
+       background-color: powderblue;
+       
+   }
+   div2
+  {
+     width:110px;
+     height:20px;
+     background-color:powderblue;
+     border:1px solid black;
+  }
+  h1
+  {   
+    background: rgb(34,193,195);
+    background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgb(35, 175, 140) 98%, rgba(14,13,126,1) 100%);
+    background-color:powderblue;
+     text-align:left;
+     color:blue;
+     
+  }
+  h2
+  {   
+    
+     background-color:powderblue;
+     text-align:left;
+     
+  }
+  p
+  {
+     font-family:"verdana", Courier,monospace; 
+  }
+  #Cars{
+     
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  p2
+  {
+      border-width:2px red;
+     height:100px;
+     width:100px;
+     background-color:green;
+     color:black;
+     text-align:left;
+     
+  }
+  #address1{
+    visibility: visible;
+     font-style: normal;
+     cursor: cell;
+  }
+  #Cars{
+      border-radius: 10px;
+      color: greenyellow;
+      position: relative;
+      animation-name: Cars;
+      animation-duration: .5s ;
+      animation-delay: 2s;
+
+  }
+  @keyframes Cars {
+    0%{  top: 0px;  }
+    12.5%{  top: -10px;  }
+    25%{ top: -20px;  }
+    37.5%{  top: -10px;  }
+    50%{ top: 00px;  }
+      
+  }
+  #Gallery{
+    border-radius: 10px;
+    color: greenyellow;
+    position: relative;
+    animation-name: Gallery;
+    animation-duration: .5s ;
+    animation-delay: 2s;
+
+}
+@keyframes Gallery {
+    12.5%{  top: 0px;  }
+    25%{  top: -10px;  }
+    37.5%{  top: -20px;  }
+    50%{  top:-10px;  }
+    62.5%{  top: 00px;  }
+    
+}
+#PriEst{
+    border-radius: 10px;
+    color: greenyellow;
+    position: relative;
+    animation-name: PriEst;
+    animation-duration: .5s ;
+    animation-delay: 2s;
+
+}
+@keyframes PriEst {
+    25%{  top: 0px;  }
+    37.5%{  top: -10px;  }
+    50%{  top: -20px;  }
+    62.5%{  top: -10px;  }
+    75%{ top: 00px;  }
+    
+}
+#About{
+    border-radius: 10px;
+    color: greenyellow;
+    position: relative;
+    animation-name: About;
+    animation-duration: .5s ;
+    animation-delay: 2s;
+
+}
+@keyframes About {
+    37.5%{ top: 0px;  }
+    50%{  top: -10px;  }
+    62.5%{ top: -20px;  }
+    75%{ top: -10px;  }
+    87.5%{  top: 00px;  }
+}
+#ConUs{
+    border-radius: 10px;
+    color: greenyellow;
+    position: relative;
+    animation-name: ConUs;
+    animation-duration: .5s ;
+    animation-delay: 2s;
+
+}
+ 
+@keyframes ConUs {
+    50%{  top: 0px;  }
+    62.5%{ top: -10px;  }
+    75%{   top: -20px;  }
+    87.5%{  top: -10px;  }
+    100%{  top: 00px;  }
+    
+}
+
+  
+  #ghgh{
+      color: red;
+      
+      width: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 10px violet;
+}
+body{
+    background: rgb(38,111,129);
+    background: linear-gradient(180deg, rgba(38,111,129,1) 0%, rgba(241,194,186,1) 98%, rgba(237,190,182,1) 100%);
+}
+
+#frame1{
+    height: 657px;
+    width: 1340px;
+  }
+
+.bar1, .bar2, .bar3{
+      background-color: black;
+      width: 30px;
+      height: 2px;
+      margin: 6px 0px; 
+      transition: .5s; 
+
+  }
+  .container {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+   
+  .change .bar2 {opacity: 0;}
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-05px, -03px);
+    transform: rotate(45deg) translate(-05px, -03px);
+    
+    }  
+
+  .testing1, .testing2, .testing3{
+    background-color:red;
+    height:40px;
+    width:5px;
+    float:left;
+    margin: 6px  6px;
+    transition: .5s;   
+  }
+  /* .bar1, .bar2, .bar3{
+    background-color: black;
+    width: 30px;
+    height: 2px;
+    margin: 6px 0px; 
+    transition: .5s; 
+
+} */
+
+.tsng {
+    display: inline-block;  
+    cursor: pointer;
+  }
+
+   
+.change .testing1{ 
+    -webkit-transform: rotate(-45deg) translate(10px, 15px) ;
+    transform: rotate(-45deg) translate(10px ,15px) ;
+}
+  .change .testing2{ 
+  opacity: 0;
+  }
+  .change .testing3{ 
+    -webkit-transform: rotate(45deg) translate(-10px,15px) ;
+    transform: rotate(45deg) translate(-10px,15px) ;
+  }
+
+.square{
+  background-image: url("Lammbboo.jpg") ;
+  /* background-color: chartreuse; */
+  height: 245px;
+  width: 500px;
+  background-size:cover;
+  background-position: center;
+  margin-left: 174.5px;
+  transition: 1s;
+   
+}
+
+.square:hover{
+  background-image: url("DuckDuckGo-Logo.jpg") ;
+  height: 325px;
+  width:327px;
+  background-size:cover;
+  background-position: center;
+  margin-left: 328.5px;
+  transform: rotate(360deg);
+}
+.collapsible{
+  /* display: inline-block; */
+  cursor: pointer;
+  padding-bottom:10px ;
+ 
+ 
+}
+.collabutton {
+  /* float: left; */
+  /* position: fixed; */
+  cursor: pointer;
+  margin: 10px 15px;
+  border: .5px solid black;
+  width: 150px;
+  text-align: center;
+  /* display: inline-block; */
+  /* display: inline-block;  */
+
+  
+}
+
+.collabutton::after{
+  content: '\25be';
+  transform: scale(1.5);
+  float: right; 
+  padding: 10px,15px;
+}
+
+.active, .collapsible:hover {
+  background-color: rgb(124, 159, 160);
+}
+
+.active, .collabutton:hover{
+  background-color: rgb(10, 192, 116);
+}
+
+.collabutton.active {background: green;
+max-height: 150px;}
+
+.collabutton.active::after{content: '\25b4';}
+
+.content{ 
+  display: block;
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height .5s;
+  padding: 0 15px;
+}
+
+.MenuButton{
+  margin: 5px;
+}
+.menubars1, .menubars2, .menubars3{
+  width: 25px;
+  height: 2px;
+  margin: 5px;
+  background: black;
+  cursor: pointer;
+  transition: .5s;
+
+}
+/* .change .menubars1{
+  -webkit-transform: rotate(45deg) translate(5px, 5px);
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.change .menubars2{
+ opacity: 0;
+ transition: .5s;
+}
+.change .menubars3{ 
+  -webkit-transform: rotate(45deg) translate(5px, -5px);
+  transform: rotate(-45deg) translate(5px, -5px);
+} */
+
+.change .menubars1{
+  -webkit-transform: translateY(  7px) rotate(45deg)   ;
+  transform: translateY( 7px) rotate(45deg)  ;
+  
+}
+.change .menubars2{
+ opacity: 0;
+ transition: .5s;
+}
+.change .menubars3{ 
+  -webkit-transform: translateY( -7px ) rotate(-45deg)   ;
+  transform: translateY(  -7px)   rotate(-45deg)  ;
+}
+
+.panelsss{
+  position: inherit;
+  display: none;
+  
+}
+.active1.panelsss{ 
+ width: 1250px;
+ border-radius: 50px;
+ height: 250px; 
+ text-align: center;
+ padding-top: 100px;
+ background-color: cadetblue; 
+ margin-top: 100px;
+ display: block;
+
+}
+
+#tabs{
+  list-style-type: none;
+}
+.tab-panel:hover{
+  cursor: pointer;
+  background-color: rgb(107, 194, 26);
+  transition: 5s;
+   
+  
+}
+.tab-panel{ 
+  font-size: 20px;
+  width: 300px;
+  height: 40px;
+  border-radius: 15px;
+  padding-top: 20px;
+  display: inline-flex;
+  justify-content: space-around;
+  margin : 0; 
+  float: left; 
+}
+
+
+.MenuPanel{
+  margin: 5px;
+ 
+}
+#MenuPanel22{
+  display: block ;
+  transition: .5s;
+  padding-top: 10px;
+  padding-right: 5px;
+}
+.menupanelbar1,.menupanelbar2,.menupanelbar3 {
+  width: 25px;
+  height: 2px;
+  margin: 5px;
+  background: black;
+  cursor: pointer;
+  transition: .5s; 
+
+}
+ 
+.change .menupanelbar1{
+  -webkit-transform: translateY(  7px)  rotate(-45deg)    ;
+  transform: translateY( 7px) rotate(-45deg)   ;
+}
+.change .menupanelbar2{
+ opacity: 0;
+ transition: .5s;
+}
+.change .menupanelbar3{ 
+  -webkit-transform: translateY( -7px ) rotate(45deg)   ;
+  transform: translateY(  -7px)   rotate(45deg)  ;
+}
+
+#MenuList1{
+  /* background: gray; */
+  /* transition: 5s; */
+  display: none;
+  list-style-type: none; 
+  margin-top: 40px;
+  margin-left: -155px;
+  font-size: 20px;
+  width: 150px;
+}  
+ .Menu{
+   border-bottom: 1px solid black;
+   width:100px;
+   margin-left: -15px;
+   padding: 3px;
+   cursor: pointer;
+ }
+ .Menu a{
+  text-decoration: none;
+  color: blanchedalmond;
+
+ }
+.sidepanel{  
+  /* border: 1px solid greenyellow; */
+  display: flex;
+  position: relative;
+  background-color: none;
+  /* border-radius: 500px; */
+  /* width: 1050px; */
+  /* height: 200px; */
+}
