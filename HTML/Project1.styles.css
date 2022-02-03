@@ -496,3 +496,33 @@ max-height: 150px;}
   /* width: 1050px; */
   /* height: 200px; */
 }
+
+#HorizontalMenu{
+  /* border: 1px solid darkcyan; */
+  background-color: rgb(124, 89, 54);
+  color : white;
+  height: 50px;
+  width: 97.5vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.HorizontalMenuHeads:hover{
+  opacity: .7;
+}
+.HorizontalMenuHeads{ 
+  /* border: 1px solid black; */
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 5px;
+   font-size: 25px;
+  vertical-align: middle;
+  padding-top: 5px ;
+  /* padding-left:  70px; */
+  background-color: rgb(124, 89, 54);
+  
+}
+.HorizontalMenuHeads a{ 
+text-decoration: none;
+color : white;
+}
