@@ -1,0 +1,80 @@
+#Logo{
+    margin-top: 125px;
+    margin-left: 550px;
+}
+
+.search2 #searchBar{
+    width:500px;
+	height:25px;
+	border-radius:25px;
+    position: relative; 
+     border: 2px solid rgba(116, 117, 97, 0.589);   
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 380px; 
+    
+ 
+}  
+.search2 #search_button {
+   
+    width:60px;
+	height:30px;
+	border-radius:25px; 
+    border: 2px solid rgba(116, 117, 97, 0.589);
+    border-radius: 7px;
+     
+}  
+#frame1{
+ margin-left: 385px;
+ margin-top: 564.25px ;
+  height: 328.5px;
+  width: 670px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #d35c3b;
+  }
+   
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+   
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+   
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+ 
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+   @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  } 
+ 
