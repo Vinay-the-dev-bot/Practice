@@ -636,3 +636,20 @@ margin-left: 150px;
 .content2 p{
   text-align: center;
 }
+.iconbar {
+  /* border: 1px solid black; */
+  width: fit-content;
+}
+ 
+.iconbar a i{
+  padding: 20px 25px;
+  width: 100px;
+  font-size: 50px;
+  text-align: center;
+  background-color: rgb(72, 189, 150);
+  transition: .5s ;
+}
+.iconbar a i:hover{
+  background-color: rgb(158, 95, 201);
+}
+  
