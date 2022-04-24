@@ -8,7 +8,7 @@ body, html{
     color:#666;
   }
   #img1,#img2,#img3{
-    position: relative;
+    position: relative; 
     opacity: .7;
     background-attachment:fixed;
     background-position:center;
@@ -19,6 +19,7 @@ body, html{
 #img1{
     background-image: url("Lambo.jpg"); 
     min-height:100%;
+    
 }
 #img2{
     background-image: url("Lammbboo.jpg"); 
@@ -72,10 +73,4 @@ body, html{
      padding:  25px 50px;
  }
   
-  
-  /* @media(max-width:568px){
-    .pimg1, .pimg2, .pimg3{
-      background-attachment:scroll;
-    }
-  }
-   */
+   

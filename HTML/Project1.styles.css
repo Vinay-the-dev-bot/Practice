@@ -426,6 +426,7 @@ max-height: 150px;}
 
 .MenuPanel{
   margin: 5px;
+  display: flex;
  
 }
 #MenuPanel22{
@@ -437,13 +438,20 @@ max-height: 150px;}
 .menupanelbar1,.menupanelbar2,.menupanelbar3 {
   width: 25px;
   height: 2px;
-  margin: 5px;
+  margin:    5px;
   background: black;
   cursor: pointer;
   transition: .5s; 
 
 }
- 
+
+#dfghj{
+  font-size: 25px;
+  display: flex;
+} 
+#dfghj2{
+  font-size: 0; 
+} 
 .change .menupanelbar1{
   -webkit-transform: translateY(  7px)  rotate(-45deg)    ;
   transform: translateY( 7px) rotate(-45deg)   ;
@@ -459,7 +467,7 @@ max-height: 150px;}
 
 #MenuList1{
   /* background: gray; */
-  /* transition: 5s; */
+  transition: .5s;
   display: none;
   list-style-type: none; 
   margin-top: 40px;
@@ -643,13 +651,46 @@ margin-left: 150px;
  
 .iconbar a i{
   padding: 20px 25px;
-  width: 100px;
+  width: 210px;
   font-size: 50px;
+  margin: 0px 3px;
+  border-radius: 15px 15px;
   text-align: center;
   background-color: rgb(72, 189, 150);
-  transition: .5s ;
+  transition: 1s ;
+ 
 }
+@-webkit-keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(-5deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+  }
+  75% {
+    -webkit-transform: rotate(5deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+} 
 .iconbar a i:hover{
-  background-color: rgb(158, 95, 201);
-}
+  background-color: rgb(190, 34, 125);
+  /* border-radius: 50px 10px;  */ 
+  -webkit-animation: rotation .5s linear;
   
+} 
+.mainbody{
+  transition: 5s;
+}
+#LoremIpsum{
+  font-size: xx-large;
+}
+#LoremIpsum:hover{
+  cursor: pointer; 
+  background-color: turquoise;
+  color: black;
+} 

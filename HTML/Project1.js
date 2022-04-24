@@ -55,16 +55,25 @@ menu.addEventListener("click", function(){
       const collabutton1 =  document.getElementById("MenuList1")  
         if ( getComputedStyle(collabutton1).display === "none") { 
           collabutton1.style.display="block"; 
+          collabutton1.style.transition="5s";
       } else   {   
         collabutton1.style.display="none";  
       } 
       const menupanelbar22 =  document.getElementById("menupanelbar22")   
       if ( getComputedStyle(menupanelbar22).opacity === "1") {
-        menu.style.paddingLeft = "100px"; 
+        menu.style.paddingLeft = "100px";
+        menu.style.fontSize = "0"; 
         
       } else  {  
         menu.style.paddingLeft = "0";  
       }
+      const  dfghj =  document.getElementById("dfghj")   
+      if ( getComputedStyle(dfghj).fontSize === "25px") {
+        // menu.style.paddingLeft = "100px";
+        dfghj.style.fontSize = "0"; 
+        dfghj.style.transition = ".5s";
+        
+      } else  {  
+        dfghj.style.fontSize = "25px";  
+      }
 }) 
- 
- 

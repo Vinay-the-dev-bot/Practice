@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+    <script> 
+		function dis(val)
+		{
+			document.getElementById("result").value+=val
+		}
+		 
+		function solve()
+		{
+			let x = document.getElementById("result").value
+			let y = eval(x)
+			document.getElementById("result").value = y
+		}
+		 
+		function clr()
+		{
+			document.getElementById("result").value = ""
+		}
+	</script>
+    <style>
+        button{
+            width: 150px;
+            height: 50px;
+        }
+        .line1, .line2, .line3,.line4,.line5,.line6{
+            margin: 10px;
+            font-size: 40px;
+        }  
+        .tsts input{
+            font-size: 40px;
+            width: 500px;
+            height: 40px;
+            
+        }
+        #clear{
+            width: 500px;
+            height: 45px;
+            margin-left: 10px;
+            font-size: 35px;
+            vertical-align: middle;
+            background-color: aquamarine;
+        }
+        .body{
+            display: flex;
+            width: 99%; 
+            justify-content: center;
+            /* margin: 50px; */ 
+        }
+        .header h1{
+            text-align: center;
+        }
+        button{
+            background-color: aquamarine;
+        }
+        #result{
+            width: 490px;
+            height: 45px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            font-size: 40px;
+            background-color: rgb(48, 158, 63);
+        }
+        body{ 
+            background-color: rgb(83, 65, 65);
+        } 
+    </style>  
+    <body> 
+        <div class="header">
+            <h1>My calculator</h1> 
+        </div>
+        <div class="body" > 
+            <overlay class="overlay">
+                <button class="line1"  value="1" onclick="dis(1)">1</button>   
+                <button class="line1"  value="2" onclick="dis(2)">2</button>   
+                <button class="line1"  value="3" onclick="dis(3)">3</button> 
+                <br>  
+                <button class="line2"  value="4" onclick="dis(4)">4</button>   
+                <button class="line2"  value="5" onclick="dis(5)">5</button>   
+                <button class="line2"  value="6" onclick="dis(6)">6</button>  
+                <br>   
+                <button class="line3"  value="7" onclick="dis(7)">7</button>   
+                <button class="line3"  value="8" onclick="dis(8)">8</button>   
+                <button class="line3"  value="9" onclick="dis(9)">9</button> 
+                <br>  
+                <button class="line4"  value="+" onclick="dis('+')">+</button>    
+                <button class="line4"  value="0" onclick="dis(0)">0</button>
+                <button class="line4"  value="-" onclick="dis('-')">-</button> 
+                <br>  
+                <button class="line5"  value="*" onclick="dis('*')">*</button>
+                <button class="line5"  value="/" onclick="dis('/')">/</button> 
+                <button class="line5"  value="=" onclick="solve()">=</button>  
+                <br>  
+                <input type="text" id="result"> 
+                <br> 
+                <input id="clear" type="button" value="Clear" onclick="clr()"> 
+        </div>
+    </body>     
+        
+</html>
