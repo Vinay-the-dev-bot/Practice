@@ -40,7 +40,6 @@ header{
     border: 1px black;
     
     background-color: rgba(108, 109, 101, 0.212) ;
-    
 }
 .tagLine{
     font-size: 270%;
@@ -92,6 +91,7 @@ header{
   position: relative;
   animation-name: Gallery;
   animation-duration: .5s ;
+  
   /* animation-delay: 2s; */
 
 }

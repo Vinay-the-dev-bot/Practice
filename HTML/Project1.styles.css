@@ -441,7 +441,7 @@ max-height: 150px;}
   margin:    5px;
   background: black;
   cursor: pointer;
-  transition: .5s; 
+  transition:  .5s;
 
 }
 
@@ -694,3 +694,58 @@ margin-left: 150px;
   background-color: turquoise;
   color: black;
 } 
+
+.Button2{
+  margin: 25px auto 25px auto ;
+  display: block; 
+  width: max-content;
+  /* width: 150px;
+  height: 35px; */
+  height: fit-content; 
+  font-size: 30px;
+  position: relative; 
+  outline: 2px solid black;
+  padding: 5px;  
+  transition: .5s;
+}
+.Button2::before{
+  content:  '\a0\a0';
+  transition: .5s;
+}
+.Button2::after{
+  content:  '\a0\a0';
+  transition: .5s;
+}
+.Button2:hover{  
+  transform: scale(1.1);
+  background-color: aqua; 
+}
+.Button2:hover::before{
+  
+  opacity: 0;
+  cursor: pointer;
+  color: aquamarine;
+  background-color: aquamarine;
+  width: fit-content; 
+}
+.Button2:hover::after{ 
+  opacity: 0;
+  cursor: pointer;
+  color: aquamarine;
+  background-color: aquamarine;
+  width: fit-content; 
+}
+.IconsTest{ 
+  list-style: none;
+  position: relative; 
+  padding: 15px 0 15px 350px;
+}
+.IconsTest .fa-brands{
+  position: inherit; 
+  margin: 0 50px; 
+  width: max-content;
+  transform: scale(2); 
+ }  
+ .IconsTest .fa-brands:hover{ 
+   transform: scale(2.5);
+ }   

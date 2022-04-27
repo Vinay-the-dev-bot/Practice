@@ -76,4 +76,4 @@ menu.addEventListener("click", function(){
       } else  {  
         dfghj.style.fontSize = "25px";  
       }
-}) 
+})  
