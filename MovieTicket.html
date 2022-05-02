@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="MovieTicket.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">    
+    <title>BookMovieTikcets!!!</title>
+</head>
+<body>
+    <div class="TopBar">
+        Welcome to Book MY Show
+    </div>
+    <div class="Shows">
+        Available Shows
+    </div>
+    <div id="MainBox"> 
+        <div class="MovieTicekts"> 
+            <select class="DrpDwn" id="Venue">
+                <option   value="None" selected   >Select Venue</option>
+                <option value = "PVR Vaishnavi Sapphire">PVR Vaishnavi Sapphire</option>
+                <option value= "Inox Mantri Square">Inox Mantri Square</option>
+                <option value= "Govardhan theatre">Govardhan theatre</option>
+                <option value= "Vaibhav Theatre">Vaibhav Theatre</option>
+                <option value= "Kapaali Theatre">Kapaali Theatre</option>
+                <option value= "PVR Orion Mall">PVR Orion Mall</option> 
+            </select>
+            <select  class="DrpDwn" id="Movie"> 
+                <option  value="None" selected  >Select Movie</option>
+                <option value = "K.G.F 2">K.G.F 2</option>
+                <option value= "R.R.R">R.R.R</option>
+                <option value= "DUNE">DUNE</option>
+                <option value= "The Batman">The Batman</option>
+                <option value= "TENET">TENET</option>
+                <option value= "Roberrt">Roberrt</option> 
+            </select>
+            <select class="DrpDwn" id="Tickets">
+                    <option  value="None" selected   >No Of tickets</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option> 
+            </select> 
+            <select  class="DrpDwn" id="Tier">
+                <option   value="None" selected   >SelectTier</option>
+                <option value="210">Bench</option>
+                <option value="250">Chair</option>
+                <option value="300">Recliner</option>
+                <option value="500">Balcony</option>
+                <!-- <option value="Bench">Bench</option>
+                <option value="Chair">Chair</option>
+                <option value="Recliner">Recliner</option>
+                <option value="Balcony">Balcony</option> -->
+            </select>  
+            <button id="Total">Book Seats</button>
+        </div>
+        <div id="TotalBox">
+            <p >Total : <span id="Total2">0</span></p>
+        </div>
+    </div> 
+</body>
+<script src="MovieTicket.js" type="text/javascript" defer></script>
+</html>
