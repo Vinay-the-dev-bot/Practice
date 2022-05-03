@@ -28,7 +28,7 @@ justify-content: left;
 .MovieTicekts{
     border-radius: 10px;
     height: 400px;
-    width: 50%;
+    width: 35%;
     display: inline-flex;
     border: 1px solid black;
     background-color: rgb(85, 150, 69); 
@@ -48,7 +48,7 @@ justify-content: left;
 #TotalBox{ 
     /* margin-left: 10%; */
     border: 1px solid black;
-    margin-left: 25px;
+    /* margin-left: 25px; */
     border-radius: 10px;
     height: max-content;
     width: 50%;
@@ -135,4 +135,48 @@ justify-content: left;
   #Pay {
     padding: 0 40px;
   }
+}
+#date{
+  border: 1px solid black;
+  background-color: #68EBB6;
+  height: 50px;
+  border-radius: 10px;
+  width: 80%;
+  margin-top: 25px;
+  margin-left: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+#DateAndTime{
+  /* border: 1px solid black; */
+  height: 400px;
+  width: 15%;
+  font-size: 20px; 
+  /* border-radius: 10px; */
+}
+.erts{
+  transform: scale(2);
+  margin-left: 100px;
+}
+.Date{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: aquamarine;
+  height: 195px; 
+  margin: 0  5px 5px 5px; 
+}
+.Time{
+  border: 1px solid black;
+  border-radius: 10px;
+  background: aquamarine;
+  height: 195px;  
+  margin: 5px 5px 0px 5px;
+}
+#TimeSlots{
+  height: 50px;
+  border-radius: 10px;
+  background-color: #68EBB6;
+  width: 80%;
+  margin-top: 25px;
+  margin-left: 20px;
 }
