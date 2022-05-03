@@ -1,4 +1,4 @@
-var Total = document.getElementById("Total") 
+var BookSeats = document.getElementById("BookSeats") 
 var Total2 = document.getElementById("Total2") 
 var Theater = document.getElementById("Venue")
 var Movie = document.getElementById("Movie")
@@ -6,7 +6,7 @@ var NoOfTickets = document.getElementById("Tickets")
 var Tier = document.getElementById("Tier")
 const PVS = {}
 console.log("sijvnisjvnsijnnv")
-Total.addEventListener("click", () =>{
+BookSeats.addEventListener("click", () =>{
     console.log("2 : " + Theater.value)
     console.log("3 : " + Movie.value)
     console.log("4 : " + NoOfTickets.value)
@@ -21,6 +21,7 @@ Total.addEventListener("click", () =>{
     }
     else if(Tier.value == "None" ){
         alert("Select Tier")
+    }else{
+        TotalValue.innerText = Tier.value * NoOfTickets.value;
     }
-    Total2.innerText = Tier.value * NoOfTickets.value;
 })

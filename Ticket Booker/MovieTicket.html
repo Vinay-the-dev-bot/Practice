@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="TopBar">
-        Welcome to Book MY Show
+        Welcome to  Ticket Booker
     </div>
     <div class="Shows">
         Available Shows
@@ -17,7 +17,7 @@
     <div id="MainBox"> 
         <div class="MovieTicekts"> 
             <select class="DrpDwn" id="Venue">
-                <option   value="None" selected   >Select Venue</option>
+                <option value="None" selected   >Select Venue<span></option>
                 <option value = "PVR Vaishnavi Sapphire">PVR Vaishnavi Sapphire</option>
                 <option value= "Inox Mantri Square">Inox Mantri Square</option>
                 <option value= "Govardhan theatre">Govardhan theatre</option>
@@ -45,20 +45,25 @@
             </select> 
             <select  class="DrpDwn" id="Tier">
                 <option   value="None" selected   >SelectTier</option>
-                <option value="210">Bench</option>
-                <option value="250">Chair</option>
-                <option value="300">Recliner</option>
-                <option value="500">Balcony</option>
+                <option value="100">Floor - Rs.100</option>
+                <option value="210">Bench - Rs.210</option>
+                <option value="250">Chair - Rs.250</option>
+                <option value="300">Recliner - Rs.300</option>
+                <option value="500">Balcony - Rs.500</option>
                 <!-- <option value="Bench">Bench</option>
                 <option value="Chair">Chair</option>
                 <option value="Recliner">Recliner</option>
                 <option value="Balcony">Balcony</option> -->
             </select>  
-            <button id="Total">Book Seats</button>
+            <button id="BookSeats">Confirm Selection</button>
         </div>
         <div id="TotalBox">
-            <p >Total : <span id="Total2">0</span></p>
-        </div>
+            <span>
+            <p id="TotalText">Total : </p>
+            <p id="TotalValue">0</p>
+            <button id="Pay">Pay   --></button>
+            </span>
+        </div> 
     </div> 
 </body>
 <script src="MovieTicket.js" type="text/javascript" defer></script>

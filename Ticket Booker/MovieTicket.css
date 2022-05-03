@@ -1,0 +1,138 @@
+option{
+    text-align: center;
+}
+.TopBar{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color: #68EBB6; 
+    font-family: 'Bangers', cursive; 
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.Shows{
+margin-top: 15px;
+background-color: aquamarine;
+height: 100%;
+font-size: 100px;
+display: flex;
+justify-content: left;
+}
+#MainBox{
+    /* border: 1px solid rgb(134, 20, 20); */
+    display: inline-flex;
+    margin-top: 25px;
+    width: 100%;
+}
+.MovieTicekts{
+    border-radius: 10px;
+    height: 400px;
+    width: 50%;
+    display: inline-flex;
+    border: 1px solid black;
+    background-color: rgb(85, 150, 69); 
+    flex-direction: column;
+}
+.DrpDwn, #BookSeats{ 
+    margin: 20px auto 20px auto;
+    width: 300px;
+    font: message-box;
+    font-size: 100%;
+    height: 40px;
+    background-color: #cfd6cb;
+    border-radius: 10px; 
+    box-shadow: 5px 10px 10px #488a66;
+    text-align-last:center;
+}
+#TotalBox{ 
+    /* margin-left: 10%; */
+    border: 1px solid black;
+    margin-left: 25px;
+    border-radius: 10px;
+    height: max-content;
+    width: 50%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: #24bb95; 
+}
+#TotalText{
+    height: max-content;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    font-size: 70px;
+}
+#TotalValue{
+    width: 200px;
+    height: 60px; 
+    left: 5px;
+    margin: 0 auto 0 auto;
+    border-radius: 7px;
+    background-color: antiquewhite; 
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+}
+#Pay {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  align-items: center;
+  font-weight: 1500;
+  background-color: #fee6e3;
+  margin: 35px 0 0 235px;
+  margin-top: 80px;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  height: 50px;
+  justify-content: center;
+  line-height: 24px;
+  width: 200px;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#Pay:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+#Pay:hover:after {
+  transform: translate(0, 0);
+}
+
+#Pay:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+#Pay:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  #Pay {
+    padding: 0 40px;
+  }
+}
