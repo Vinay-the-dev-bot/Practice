@@ -51,7 +51,7 @@ justify-content: left;
     /* margin-left: 25px; */
     border-radius: 10px;
     height: max-content;
-    width: 50%;
+    width: 25%;
     height: 400px;
     justify-content: center;
     align-items: center;
@@ -81,8 +81,8 @@ justify-content: left;
   align-items: center;
   font-weight: 1500;
   background-color: #fee6e3;
-  margin: 35px 0 0 235px;
   margin-top: 80px;
+  margin-left: 70px;
   border: 2px solid #111;
   border-radius: 8px;
   box-sizing: border-box;
@@ -90,7 +90,7 @@ justify-content: left;
   cursor: pointer;
   display: flex;
   font-size: 16px;
-  height: 50px;
+  height: 60px;
   justify-content: center;
   line-height: 24px;
   width: 200px;
@@ -179,4 +179,15 @@ justify-content: left;
   width: 80%;
   margin-top: 25px;
   margin-left: 20px;
+}
+#SelectSeats{
+  border: 1px solid black;
+  margin-right: 5px;
+  border-radius: 10px;
+  height: max-content;
+  width: 25%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  background-color: #24bb95;
 }

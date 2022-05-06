@@ -4,9 +4,14 @@ var Theater = document.getElementById("Venue")
 var Movie = document.getElementById("Movie")
 var NoOfTickets = document.getElementById("Tickets")
 var Tier = document.getElementById("Tier")
-const PVS = {}
+var TimeSlot = document.getElementById("TimeSlots")
+// var timevalue = 25;
+// var BasicPrice = 0;
 console.log("sijvnisjvnsijnnv")
 BookSeats.addEventListener("click", () =>{
+        
+    var timevalue = 0;
+    var BasicPrice = 0;
     console.log("2 : " + Theater.value)
     console.log("3 : " + Movie.value)
     console.log("4 : " + NoOfTickets.value)
@@ -21,7 +26,26 @@ BookSeats.addEventListener("click", () =>{
     }
     else if(Tier.value == "None" ){
         alert("Select Tier")
-    }else{
-        TotalValue.innerText = Tier.value * NoOfTickets.value;
     }
+    
+    if(Theater.value == "PVR Vaishnavi Sapphire" || Theater.value == "PVR Orion Mall"){
+        BasicPrice = 200;
+    }else if(Theater.value == "Inox Mantri Square"){
+        BasicPrice = 250;
+    }else{
+        BasicPrice = 100;
+    }
+
+    if(TimeSlot.value == 25){
+        timevalue = 25
+    }else if(TimeSlot.value == 50){
+        timevalue = 50
+    }else if(TimeSlot.value == 75){
+        timevalue = 75
+    }else if(TimeSlot.value == 100){
+        timevalue = 100
+    }
+        console.log(TimeSlot.value)
+    console.log("Basic Price : "  + BasicPrice)
+    TotalValue.innerText = eval(Tier.value * NoOfTickets.value + BasicPrice + timevalue );
 })
