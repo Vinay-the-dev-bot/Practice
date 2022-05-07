@@ -44,8 +44,12 @@ BookSeats.addEventListener("click", () =>{
         timevalue = 75
     }else if(TimeSlot.value == 100){
         timevalue = 100
-    }
-        console.log(TimeSlot.value)
+    } 
+    console.log("Ratings : " + Movie.ratings)
+    console.log("Name : " + Movie.value)
+    console.log(TimeSlot.options[TimeSlot.selectedIndex].text)
+    console.log(TimeSlot.selectedIndex)
     console.log("Basic Price : "  + BasicPrice)
-    TotalValue.innerText = eval(Tier.value * NoOfTickets.value + BasicPrice + timevalue );
+    // TotalValue.innerText =  eval(Tier.value * NoOfTickets.value + BasicPrice  * NoOfTickets.value + timevalue * NoOfTickets.value );
+    TotalValue.innerText =  eval((Tier.value *1 +BasicPrice* 1 +  timevalue * 1) * NoOfTickets.value);
 })

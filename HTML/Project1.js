@@ -77,3 +77,18 @@ menu.addEventListener("click", function(){
         dfghj.style.fontSize = "25px";  
       }
 })  
+
+const slider = document.getElementById("outerbox1")
+slider.addEventListener("click", () => {
+  const circle = document.getElementById("insidecircle1");
+  console.log(slider)
+  if(circle.style.left == "5px"){
+  circle.style.left= "50%";
+  slider.style.backgroundColor = "#1877F2";
+}else{
+  circle.style.left= "5px";
+  slider.style.backgroundColor = "rgb(179, 171, 171)";
+}
+  console.log("SJVsjvnsibvsbvbs")
+
+})

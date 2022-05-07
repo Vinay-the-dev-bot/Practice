@@ -837,3 +837,122 @@ margin-left: 150px;
   background: #0e76a8 ;
   color: #ffffff;
 }
+#Circle1{
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  position: relative;
+  border-radius: 50%;
+  display: inline-block;
+  animation: loading 2s infinite  ;
+  animation-delay: .1s; 
+}
+#Circle2{
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  position: relative;
+  border-radius: 50%;
+  display: inline-block;
+  animation: loading 2s infinite ;
+  animation-delay: .35s; 
+}
+#Circle3{
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  position: relative;
+  border-radius: 50%;
+  display: inline-block;
+  animation: loading 2s infinite ;
+  animation-delay: .60s;
+} 
+#Circle4{
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  position: relative;
+  border-radius: 50%;
+  display: inline-block;
+  animation: loading 2s infinite ;
+  animation-delay: .75s;  
+}
+@keyframes loading { 
+0%{  top: 0px;  }
+6.25%{  top: -7px;  }
+12.5%{ top: -14px;  }
+25%{  top: -7px;  }
+37.5%{ top: 0px}
+100%{ top: 00px;  } 
+}
+#LoadingAnimation{ 
+  margin: 0 auto 0 47%;
+}
+#outerbox{
+  border: 1px solid black;
+  background-color: antiquewhite ;
+  box-shadow: #CD201F;
+  width: 250px;
+  height: 50px;
+  border-radius: 50px;
+  position: relative;
+  align-items: center;
+  margin: 0 auto 0 40%;
+}
+#insidecircle{
+  height: 40px;
+  width: 40px; 
+  border-radius: 50px;
+  position: relative;
+  top: 5px;
+  left: 4px;
+  background-color: rgb(69, 206, 35);
+  /* animation: LtoR 2s infinite; */
+  animation: LtoRtoL 2.5s infinite; 
+}
+@keyframes LtoRtoL {
+  0%{ opacity: 1} 
+  25%{ opacity: 0.5}
+  50%{ opacity: 1; left: 204px}
+  75%{ opacity: 0.5}
+  100%{ opacity: 1;} 
+}
+@keyframes LtoR {
+  0%{ opacity: 0} 
+  25%{ opacity: .5}
+  50%{ opacity: 1; }
+  75%{ opacity: .5}
+  100%{ opacity: 0; left: 204px} 
+}
+#outerbox1{
+  /* border: 5px solid white; */
+  width: 50px;
+  background-color: rgb(179, 171, 171);
+  height: 30px;
+  border-radius: 50px;
+  position: relative;
+  align-items: center;
+  margin: 0 auto 0 47%;
+  transition: .5s;
+}
+#insidecircle1{
+  height: 20px;
+  width: 20px; 
+  top: 5px;
+  left: 5px;
+  border-radius: 50px;
+  position: relative; 
+  background-color: white;
+  transition: .5s;
+}
+#outerbox1:hover{
+ cursor: pointer;
+}   
