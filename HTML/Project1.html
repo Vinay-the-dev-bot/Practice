@@ -438,6 +438,216 @@
                 <option value="bkrw">Stranger Than Fiction</option>
             </optgroup>
         </select>
+        <hr>
+        <div class="TopBar">
+            Welcome to  Ticket Booker
+        </div>
+        <div class="Shows">
+            Available Shows
+        </div>
+        <div id="MainBox"> 
+            <div class="MovieTicekts"> 
+                <select class="DrpDwn" id="Venue">
+                    <option value="None" selected   >Select Venue<span></option>
+                    <option value = "PVR Vaishnavi Sapphire">PVR Vaishnavi Sapphire</option>
+                    <option value= "Inox Mantri Square">Inox Mantri Square</option>
+                    <option value= "Govardhan theatre">Govardhan theatre</option>
+                    <option value= "Vaibhav Theatre">Vaibhav Theatre</option>
+                    <option value= "Kapaali Theatre">Kapaali Theatre</option>
+                    <option value= "PVR Orion Mall">PVR Orion Mall</option> 
+                </select>
+                <select  class="DrpDwn" id="Movie"> 
+                    <option value="None"  selected  >Select Movie</option>
+                    <option value= "K.G.F 2" ratings="99">K.G.F 2</option>
+                    <option value= "R.R.R" ratings="54">R.R.R</option>
+                    <option value= "DUNE"  ratings="74">DUNE</option>
+                    <option value= "The Batman" ratings="66">The Batman</option>
+                    <option value= "TENET" ratings="40">TENET</option>
+                    <option value= "Roberrt"  ratings="89">Roberrt</option> 
+                </select>
+                <select class="DrpDwn" id="Tickets">
+                        <option  value="None" selected   >No Of tickets</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option> 
+                </select> 
+                <select  class="DrpDwn" id="Tier">
+                    <option   value="None" selected   >Select Tier</option>
+                    <option value="100">Floor - Rs.100</option>
+                    <option value="210">Bench - Rs.210</option>
+                    <option value="250">Chair - Rs.250</option>
+                    <option value="300">Recliner - Rs.300</option>
+                    <option value="500">Balcony - Rs.500</option>
+                    <!-- <option value="Bench">Bench</option>
+                    <option value="Chair">Chair</option>
+                    <option value="Recliner">Recliner</option>
+                    <option value="Balcony">Balcony</option> -->
+                </select>  
+                <button id="BookSeats">Confirm Selection</button>
+            </div>
+            <div id="DateAndTime">
+                <div class="Date">
+                    <p class="erts">Date</p>
+                    <input type="date" id="date">
+                </div>
+                <div class="Time">
+                    <p class="erts">Time</p>
+                    <select  class="" id="TimeSlots">
+                        <option value="None" selected   >Time Slots</option>
+                        <option value="25">10:00 AM - 01:00 PM</option> 
+                        <option value="50">01:30 PM - 04:30 PM</option>
+                        <option value="75">05:00 PM - 08:00 PM</option>
+                        <option value="100">09:00 PM - 12:00 AM</option> 
+                    </select>  
+                </div>
+            </div>
+            <div id="SelectSeats">
+                <div class="selectSeatsText">Select Seats</div>
+                <div class="screen"></div>
+                <div class="SelectGrid">
+                    <div class="FloorSeats">
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                    </div>
+                    <div class="BenchSeats">
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                    </div>
+                    <div class="ChairSeats">
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                    </div>
+                    <div class="ReclinerSeats">
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                    </div>
+                    <div class="BalconySeats">
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                    </div>  
+                </div>
+            </div>
+            <div id="TotalBox">
+                <span>
+                <p id="TotalText">Total : </p>
+                <p id="TotalValue">0</p>
+                <button id="Pay">Pay   --></button>
+                </span>
+            </div> 
+        </div> 
         <hr><hr><hr><hr><hr><hr><hr>
         <hr><hr><hr><hr><hr><hr><hr>
         <hr><hr><hr><hr><hr><hr><hr>

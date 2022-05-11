@@ -5,9 +5,7 @@ var Movie = document.getElementById("Movie")
 var NoOfTickets = document.getElementById("Tickets")
 var Tier = document.getElementById("Tier")
 var TimeSlot = document.getElementById("TimeSlots")
-// var timevalue = 25;
-// var BasicPrice = 0;
-console.log("sijvnisjvnsijnnv")
+
 BookSeats.addEventListener("click", () =>{
         
     var timevalue = 0;
@@ -53,3 +51,6 @@ BookSeats.addEventListener("click", () =>{
     // TotalValue.innerText =  eval(Tier.value * NoOfTickets.value + BasicPrice  * NoOfTickets.value + timevalue * NoOfTickets.value );
     TotalValue.innerText =  eval((Tier.value *1 +BasicPrice* 1 +  timevalue * 1) * NoOfTickets.value);
 })
+
+var Seats = document.getElementsByClassName("grid-item")
+console.log("Seats Lgngh : " +Seats.length)
