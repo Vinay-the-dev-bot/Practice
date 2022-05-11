@@ -194,7 +194,8 @@ justify-content: left;
   background-color: #24bb95;
 }
 .SelectGrid{
-  display: grid;
+  display: flex;
+  flex-direction: column;
   /* padding: 10px; */
   
 }
@@ -205,8 +206,8 @@ justify-content: left;
   background-color: #fee6e3;
   margin: 2px 0px;
   display: grid;
+  width: 75%;
   border-radius: 10px;
-  margin: 2px 0px;
   border: 1px solid black;
   grid-template-columns: auto auto auto auto auto auto auto auto;
 }
@@ -214,6 +215,7 @@ justify-content: left;
   margin: 2px 0px;
   background-color: #fee6e3;
   display: grid;
+  width: 75%;
   border-radius: 10px;
   border: 1px solid black;
   grid-template-columns: auto auto auto auto auto auto auto auto;
@@ -221,6 +223,7 @@ justify-content: left;
 .ChairSeats{
   background-color: #fee6e3;
   margin: 2px 0px;
+  width: 75%;
   display: grid;
   border-radius: 10px;
   border: 1px solid black;
@@ -229,6 +232,7 @@ justify-content: left;
 .ReclinerSeats{
   background-color: #fee6e3;
   margin: 2px 0px;
+  width: 75%;
   display: grid;
   border-radius: 10px;
   border: 1px solid black;
@@ -238,6 +242,7 @@ justify-content: left;
   background-color: #fee6e3;
   margin: 2px 0px;
   display: grid;
+  width: 75%;
   border-radius: 10px;
   border: 1px solid black;
   grid-template-columns: auto auto auto auto auto auto auto auto;
@@ -255,8 +260,23 @@ justify-content: left;
   background-color: #fee6e3;
   height: 12px;
   width: 12px;
-  margin: 3px 13px ;
+  margin: 3px 8px ;
 }
 .grid-item:hover{
   cursor: pointer;
+}
+#FloorSeatsMain, #BalconySeatsMain, #ReclinerSeatsMain, #BenchSeatsMain, #ChairSeatsMain{
+  display: flex;
+  margin-left: 1%;
+  gap: 2px ;
+}
+#FlrSts, #BlcSts, #RclSts, #ChrSts, #BnchSts{
+  display: flex;
+  align-items: center; 
+  text-align: center;
+  width: 20%;
+  margin: 2px 0px;
+  margin-right: 2px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
