@@ -247,10 +247,23 @@ justify-content: left;
   border: 1px solid black;
   grid-template-columns: auto auto auto auto auto auto auto auto;
 }
+.ScreenText{
+  display: flex;
+  align-items: center; 
+  text-align: center;
+  width: 10%;
+  margin: 2px 0px;
+  padding-left: 10px;
+  padding-right: 23px;
+  margin-right: 2px;
+  margin-left: 2px;  
+  background-color: #fee6e3;
+  border: 1px solid black;
+  border-radius: 5px;
+}
 .screen{
-  /* border: 1px solid black; */
   height: 10px;
-  width: 75%;
+  width: 70%;
   border-top: 10px solid white;
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
@@ -261,6 +274,12 @@ justify-content: left;
   height: 12px;
   width: 12px;
   margin: 3px 8px ;
+}
+.ScreenBox{
+  display: flex;
+  margin-left: 1%;
+  gap: 2px ;
+  width: 100%;
 }
 .grid-item:hover{
   cursor: pointer;
@@ -274,6 +293,7 @@ justify-content: left;
   display: flex;
   align-items: center; 
   text-align: center;
+  background-color: #fee6e3;
   width: 20%;
   margin: 2px 0px;
   margin-right: 2px;

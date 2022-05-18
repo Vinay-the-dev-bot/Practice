@@ -862,6 +862,18 @@ margin-left: 150px;
   animation: loading 2s infinite ;
   animation-delay: .75s;  
 }
+#Circle5{
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  position: relative;
+  border-radius: 50%;
+  display: inline-block;
+  animation: loading 2s infinite ;
+  animation-delay: .90s;  
+}
 @keyframes loading { 
 0%{  top: 0px;  }
 6.25%{  top: -7px;  }
@@ -876,6 +888,7 @@ margin-left: 150px;
 #outerbox{ 
   background-color: antiquewhite ; 
   width: 250px;
+  /* width: clamp(50%, 75%, 100px) ; */
   height: 50px;
   border-radius: 50px;
   position: relative;
@@ -1225,4 +1238,21 @@ margin: 3px 13px ;
 }
 .grid-item:hover{
 cursor: pointer;
+}
+#OuterResize{
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  resize: horizontal;
+  overflow:auto;
+}
+#InnerResize{
+  border: 1px solid black;
+  border-radius: 4px;
+  /* width: 100px; */
+  width: clamp(100px, 60%, 700px);
+  height: 40px;
+  margin-left:4px; 
+  margin-top:4px ;
 }
