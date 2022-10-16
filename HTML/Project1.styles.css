@@ -322,11 +322,13 @@ max-height: 150px;}
   padding: 0 15px;
 }
 
-.MenuButton{
-  margin: 5px;
+.MenuBars{
+  margin: 5px; 
+  width: 50px;
+  height: 15px;
 }
 .menubars1, .menubars2, .menubars3{
-  width: 25px;
+  width: 25px; 
   height: 2px;
   margin: 5px;
   background: black;
@@ -334,19 +336,6 @@ max-height: 150px;}
   transition: .5s;
 
 }
-/* .change .menubars1{
-  -webkit-transform: rotate(45deg) translate(5px, 5px);
-  transform: rotate(45deg) translate(5px, 5px);
-}
-.change .menubars2{
- opacity: 0;
- transition: .5s;
-}
-.change .menubars3{ 
-  -webkit-transform: rotate(45deg) translate(5px, -5px);
-  transform: rotate(-45deg) translate(5px, -5px);
-} */
-
 .change .menubars1{
   -webkit-transform: translateY(  7px) rotate(45deg)   ;
   transform: translateY( 7px) rotate(45deg)  ;
@@ -767,6 +756,7 @@ margin-left: 150px;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  
 }
 
 .wrapper .icon:hover span,
@@ -779,6 +769,7 @@ margin-left: 150px;
 .wrapper .facebook:hover .tooltip::before {
   background: #1877F2;
   color: #ffffff;
+  transition: .5s;
 }
 
 .wrapper .twitter:hover,
@@ -786,6 +777,7 @@ margin-left: 150px;
 .wrapper .twitter:hover .tooltip::before {
   background: #1DA1F2;
   color: #ffffff;
+  transition: .5s;
 }
 
 .wrapper .instagram:hover,
@@ -793,6 +785,7 @@ margin-left: 150px;
 .wrapper .instagram:hover .tooltip::before {
   background: #E4405F;
   color: #ffffff;  
+  transition: .5s;
 }
 
 .wrapper .github:hover,
@@ -800,6 +793,7 @@ margin-left: 150px;
 .wrapper .github:hover .tooltip::before {
   background: #333333;
   color: #ffffff;
+  transition: .5s;
 }
 
 .wrapper .youtube:hover,
@@ -807,12 +801,14 @@ margin-left: 150px;
 .wrapper .youtube:hover .tooltip::before {
   background: #CD201F;
   color: #ffffff;
+  transition: .5s;
 }
 .wrapper .linkedin:hover,
 .wrapper .linkedin:hover .tooltip,
 .wrapper .linkedin:hover .tooltip::before {
   background: #0e76a8 ;
   color: #ffffff;
+  transition: .5s;
 }
 #Circle1{
   margin-top: 20px;
@@ -1242,7 +1238,7 @@ cursor: pointer;
 #OuterResize{
   border: 1px solid black;
   border-radius: 4px;
-  width: 200px;
+  width: 800px;
   height: 50px;
   resize: horizontal;
   overflow:auto;
@@ -1250,9 +1246,220 @@ cursor: pointer;
 #InnerResize{
   border: 1px solid black;
   border-radius: 4px;
-  /* width: 100px; */
-  width: clamp(100px, 60%, 700px);
+  width: clamp(200px, 50%, 700px);
   height: 40px;
   margin-left:4px; 
   margin-top:4px ;
+}
+#Hi{
+  font-size: 50px;
+  margin-left: 10%;
+  letter-spacing: 6px; 
+  width: fit-content;
+  text-shadow: red   0 0, white 0 0;
+  color: black;
+}
+#Hi:hover{
+  text-shadow: red   -6px 0 , cyan 6px 0 ;
+  cursor: pointer;
+} 
+
+.container3{
+  width: 800px;
+  height: 900px;
+  position: relative;
+  /* background-color: #000000; */
+  margin-left: 300px;
+}
+.circle{
+  width: 600px;
+  height: 600px;
+  border: solid 50px #000000;
+  border-radius: 50%;
+  top: 70px;
+  position: absolute;
+  z-index: 10;
+  margin: 50px;
+}
+.a-1{
+  width: 100px;
+  height: 770px;
+  background:  #000000;
+  transform: skewX(-25deg);
+  position: absolute;
+  left: 200px;
+  z-index: 20px;
+  margin: 50px;
+}
+.a-2{
+  width: 100px;
+  height: 380px;
+  background:  #000000;
+  position: absolute;
+  left: 400px;
+  z-index: 30;
+  margin: 50px;
+}
+.a-3{
+  width: 200px;
+  height: 100px;
+  background:  #000000;
+  position: absolute;
+  left: 200px;
+  top: 450px;
+  z-index: 40;
+  margin: 50px;
+}
+.arrow-right{
+  width: 0;
+  height: 0;
+  border-top: 90px solid transparent;
+  border-bottom: 90px solid transparent;
+  border-left: 120px solid #000000;
+  left: 400px;
+  top: 410px;
+  position: absolute;
+  z-index: 50px;
+  margin: 50px;
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-bottom: 80px solid transparent;
+  border-right: 100px solid #000000;
+  left: 400px;
+  top: 380px;
+  position: absolute;
+  z-index: 60;
+  margin: 50px;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 80px solid transparent;
+  border-right: 100px solid #000000;
+  left: 400px;
+  top: 540px;
+  position: absolute;
+  z-index: 70;
+  margin: 50px;
+}
+
+.black-bar-1,
+.black-bar-2 {
+  width: 25px;
+  height: 80px;
+  background: #E5BDB7;
+  transform: skewX(-25deg);
+  position: absolute;
+  margin: 50px;
+}
+
+.black-bar-1 {
+  left: 158px;
+  top: 650px;
+  z-index: 80;
+  margin: 50px;
+}
+
+.black-bar-2 {
+  left: 72px;
+  top: 565px;
+  z-index: 90;
+  margin: 50px;
+}
+
+.form 
+{font-family : Helvetica, sans-serif; 
+  max-width : 400px; 
+  margin : auto  ; 
+  text-align : center; 
+  padding : 16px; 
+  background : #ffffff;
+}
+.form h1 { 
+  background : #83773f; 
+  padding-right: 20px; 
+  font-weight : 300; 
+  text-align : center; 
+  color : #fff; 
+  margin : 16px ; 
+  font-size : 25px; }
+
+.form input[type="text"], .form input[type="url"] { 
+  box-sizing : border-box; 
+  width : 100%; 
+  margin-top: 5px;
+  background : #fff; 
+  margin-bottom : 4%; 
+  border : 1px solid #ccc; 
+  padding : 4%; 
+  font-size : 17px; 
+  color : rgb(9, 61, 125);
+}
+#qrcode-container { 
+  display : none; 
+} 
+.qrcode{ 
+  padding : 16px; 
+  margin-bottom : 30px; 
+} 
+.qrcode img{ 
+  margin : 0 auto;
+  box-shadow : 0 0 10px rgba(67, 67, 68, 0.25); 
+  padding : 4px;
+}
+.form input[type="text"]:focus, 
+.form input[type="url"]:focus {
+   box-shadow : 0 0 5px #5868bf; 
+   padding : 4%; 
+   border : 1px solid #5868bf; 
+  } 
+.form button { 
+  box-sizing : border-box; 
+  -webkit-box-sizing : border-box; 
+  -moz-box-sizing : border-box; 
+  width : 180px; 
+  margin : 0 auto; 
+  padding : 3%; 
+  background : #8853b6; 
+  border : none; 
+  border-radius : 3px; 
+  font-size : 17px; 
+  border-top-style : none; 
+  border-right-style : none; 
+  border-left-style : none; 
+  color : #fff; 
+  cursor : pointer; 
+} 
+.form button:hover { 
+  background : rgba(88,104,191, 0.5); 
+}
+
+details summary{
+  font-size : 30px;
+  width : auto; 
+  margin: 0px;
+  background-color: #24bb95;
+  padding: 0;
+} 
+details p{ 
+  font-size: 20px;
+  background-color: #197382;
+  padding-left: 50px;
+  padding-top: 5px; 
+  padding-bottom: 5px;
+  margin: 0;
+}
+#disk_d1, #disk_c1{
+  font-size: 50px;
+  width: 1000px; 
+  padding-top: 20px;
+}
+#disk_d2, #disk_c2{
+  padding-left: 20px;
+  font-size: 75px;
+  width: 1000px; 
+  padding-top: 20px;
 }

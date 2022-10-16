@@ -147,3 +147,16 @@ BookSeats.addEventListener("click", () =>{
 
 var Seats = document.getElementsByClassName("grid-item")
 console.log("Seats Lgngh : " +Seats.length)
+
+function generateQRCode() { 
+  console.log("shvbvbvbvbvbvbvbvbvbvbvbvbvb")
+  let website = document.getElementById("website").value; 
+  if (website) {
+     let qrcodeContainer = document.getElementById("qrcode"); 
+         qrcodeContainer.innerHTML = ""; 
+         new QRCode (qrcodeContainer, website); 
+         document.getElementById("qrcode-container").style.display="block"; 
+  } else { 
+    alert("Please enter a valid URL");
+  } 
+} 
