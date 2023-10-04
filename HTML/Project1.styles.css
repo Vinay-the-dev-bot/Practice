@@ -1463,3 +1463,142 @@ details p{
   width: 1000px; 
   padding-top: 20px;
 }
+.BTP{
+  color: red;
+}
+.BTP:visited{
+  color: #5868bf;
+}
+.neo{
+  width: 250px;
+  height: 250px;
+  position: relative;
+  background: #646a7d;
+  margin: 25px auto;
+  border-radius : 50px;
+  box-shadow: -12px 12px 28px #a0aac8, 
+              12px -12px 28px #282a32; 
+}
+#Button-1{
+  width: 100px;
+  height: 100px;
+  margin: 75px;
+  border: 0px ;
+  border-radius: 31px;
+  background: #646a7d;
+  box-shadow:  12px -12px 28px #282a32,
+               -12px 12px 28px #a0aac8;
+               
+}
+legend {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
+}
+
+input {
+  margin: .4rem;
+}
+#fieldset{
+  width: 500px;
+  background: #646a7d;
+  box-shadow: 12px -12px 28px #282a32,
+  -12px 12px 28px #a0aac8;
+}
+.email{
+  background:a0aac8;
+}
+textarea {
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+
+label {
+  font-size: .8rem;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 10px;
+}
+.button {  
+  padding-bottom: 5px;
+  height :50px; 
+  /* width: 25px; */
+  padding : 0 25px; 
+  border-radius : 15px; 
+  background : #4503dc; 
+  color : #ffffff; 
+  box-shadow : 0 0.4rem 0 0 #542faa;
+  letter-spacing: 3px;
+  transition : all 0.3s; 
+  border: none;
+}
+.button:active { 
+  transform : translateY(10px); 
+  background : #41277c; 
+  box-shadow : 0 0.2rem 0 0 #41277c;
+}
+.button2 { 
+  position : relative; 
+  border: none;
+  overflow : hidden; 
+  height : 40px; 
+  padding : 0 20px; 
+  border-radius : 1.5em;
+  background : #ffffff;  
+  color : #000000; 
+}
+.button2:hover::before {
+   transform : scalex(1); 
+}
+.button2-content { 
+    position : relative; 
+    z-index : 1; 
+}
+.button2::before{
+  content: ""; 
+  position : absolute; 
+  top : 0; 
+  left :  0; 
+  transform : scalex(-1); 
+  transform-origin : 0 50%; 
+  width : 100%; 
+  height : inherit; 
+  border-radius : inherit; 
+  background : linear-gradient( 83.2deg, rgb(48, 96, 116) , rgb(60, 119, 60)  );
+  transition :   0.475s;
+} 
+  .blob { 
+    overflow : hidden; 
+    width : 16rem; 
+    height : 16rem;
+    border-radius : 42% 56% 72% 28% / 42% 42% 56% 48%; 
+    background : #8f44fd url("https://www.xtrafondos.com/wallpapers/glenwood-springs-en-colorado-6641.jpg"); 
+  background-size : cover; 
+  background-position : center; 
+  animation : morph 5s linear infinite;
+  }
+  @keyframes morph {
+    0%, 100% { border-radius :  45% 56% 72% 64% /  41% 64% 51% 47% ;}
+     33% {  border-radius : 72% 28% 48% 48% / 28% 28% 72% 72%; } 
+     66% { border-radius : 100% 56% 56% 100% / 100% 100% 56% 56%;}
+   }
+   kbd {
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow:
+      0 1px 1px rgba(0, 0, 0, 0.2),
+      0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+    color: #333;
+    display: inline-block;
+    font-size: 0.85em;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 4px;
+    white-space: nowrap;
+  }
+  

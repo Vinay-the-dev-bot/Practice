@@ -4,6 +4,7 @@
      <title >Project1</title>
      <link href="Project1.styles.css" rel="stylesheet" type="text/css"> 
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+     <link href="/dist/output.css" rel="stylesheet">
      <script src="Project1.js" type="text/javascript" defer></script>
     </head>    
     <body class="mainbody"> 
@@ -30,6 +31,7 @@
         <p  >Education :<sub  > B.E </sub>(Mechanical Engineering)</p>
         <p > e<sup>x</sup></p>
         <p>(<i>a</i> + <i>b</i> + √<i>c</i>)<sup>2<i>x</i> + <i>b</i></sup></p>
+        <p>(a + b + √c)<sup>2x + b</sup></p>
         <p>The <abbr title="World Health Organization" >WHO</abbr> was founded in 1948.</p> 
         <p>This is a paragraph<br>with line breaks.</p>
         <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
@@ -296,7 +298,7 @@
             </div>
              
         </div>
-        <hr>
+        <hr> 
         <div id="HorizontalMenu">
             <div class="HorizontalMenuHeads"><a href="#">Home</a></div>
             <div class="HorizontalMenuHeads"><a href="#SignUp">Sign Up</a>
@@ -671,18 +673,6 @@
             <div class="black-bar-2"></div>
         </div> 
         <hr>
-        <div>My Name Is Vinay MM</div>
-        <hr>
-        <div class="form">
-             <h1>QR Code Generator</h1> 
-             <form> 
-                <input type="url" id="website" name="website" placeholder="ENTER ANY URL" required />
-                <div id="qrcode-container"> 
-                    <div id="qrcode" class="qrcode"></div>
-                </div> 
-                <button type="button" onclick="generateQRCode()">Generate QR Code</button> 
-             </form> 
-        </div>
         <hr>
         <details>
             <summary>More About Myself</summary> 
@@ -694,11 +684,58 @@
         <label for="disk_d" id="disk_d1">Disk usage D : </label> 
         <meter id="disk_d2" value="0.8"></meter>
         <hr>
+        <div class="neo">
+            <button id="Button-1">Button 1</button>
+        </div>
+        <hr>
+        <fieldset id="fieldset">
+            <legend>Choose your favorite monster</legend>
+        
+            <input type="radio" id="kraken" name="monster" value="K">
+            <label for="kraken">Kraken</label><br>
+
+            <input type="radio" id="sasquatch" name="monster" value="S">
+            <label for="sasquatch">Sasquatch</label><br>
+        
+            <input type="checkBox" id="mothman" name="monster" value="M" />
+            <label for="mothman">Mothman</label><br>
+
+                                                                    <label>Enter E-Mail : </label>
+            <input type="text" id="email" placeholder="123@abc.xyz">
+        </fieldset>
+        <hr>
+        <label for="story">Tell us your story:</label>
+        <textarea >It was a dark and stormy night...</textarea>
+        <hr>
+        <div>
+            <p>Choose your monster's colors:</p>
+            <div>
+                <label for="head">Head : <input type="color" id="head" name="head"  value="#e66465"></label>
+            </div>
+            <div >
+                <label for="body">Body : <input type="color" id="body" name="body" value="#f6b73c"></label>
+            </div>
+        </div>
+        <hr>
+        <button class="button">LOGIN</button> 
+        <br>
+        <hr>
+        <button class="button2"> 
+            <span class="button2-content">Download</span> 
+        </button>
+        <hr>
+        <div class="blob"></div>
+        <hr> 
+        <p>Please press 
+            <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> to re-render an MDN page.
+        </p>  
         <hr><hr><hr><hr><hr><hr><hr>
         <hr><hr><hr><hr><hr><hr><hr>
         <hr><hr><hr><hr><hr><hr><hr>
         <hr><hr><hr><hr><hr><hr><hr>
         <hr><hr><hr><hr><hr><hr><hr> 
-        <a href="#name1">Back To Top</a>
+        <a class="BTP" href="#name1">Back To Top</a>
+        <hr>
+         
     </body>
-</html>
+</html> 

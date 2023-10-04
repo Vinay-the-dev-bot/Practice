@@ -7,13 +7,21 @@ var Tier = document.getElementById("Tier")
 var TimeSlot = document.getElementById("TimeSlots")
 
 BookSeats.addEventListener("click", () =>{
+
+    console.log("BookSeats : "  + BookSeats)
+    console.log("Total2 : " + Total2)
+    console.log("Theater : " + Theater)
+    console.log("Movie : " + Movie)
+    console.log("NoOfTickets : " + NoOfTickets)
+    console.log("Tier : " +  Tier)
+    console.log("TimeSlot : " + TimeSlot)
         
     var timevalue = 0;
     var BasicPrice = 0;
-    console.log("2 : " + Theater.value)
-    console.log("3 : " + Movie.value)
-    console.log("4 : " + NoOfTickets.value)
-    console.log("5 : " + Tier.value)
+    console.log("Theatre : " + Theater.value)
+    console.log("Movie : " + Movie.value)
+    console.log("No Of Tickets : " + NoOfTickets.value)
+    console.log("Price : " + Tier.value)
     if(Theater.value == "None" ){
         alert("Select Venue")
     }else if(Movie.value == "None" ){
@@ -45,8 +53,8 @@ BookSeats.addEventListener("click", () =>{
     } 
     console.log("Ratings : " + Movie.ratings)
     console.log("Name : " + Movie.value)
-    console.log(TimeSlot.options[TimeSlot.selectedIndex].text)
-    console.log(TimeSlot.selectedIndex)
+    console.log("Time1  : " + TimeSlot.options[TimeSlot.selectedIndex].text)
+    console.log("Time2 : " + TimeSlot.selectedIndex)
     console.log("Basic Price : "  + BasicPrice)
     // TotalValue.innerText =  eval(Tier.value * NoOfTickets.value + BasicPrice  * NoOfTickets.value + timevalue * NoOfTickets.value );
     TotalValue.innerText =  eval((Tier.value *1 +BasicPrice* 1 +  timevalue * 1) * NoOfTickets.value);

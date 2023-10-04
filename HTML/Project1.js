@@ -83,8 +83,8 @@ const text = document.getElementById("BoxText")
 circle2.addEventListener("click", () => { 
   if(getComputedStyle(circle2).left == "5px"){ 
   circle2.style.left= "47%";
-  slider2.style.backgroundColor = "#1877F2";
-  text.innerText="No" 
+  slider2.style.backgroundColor = "#8f44fd";
+  text.innerText="No"
   }else {
   circle2.style.left= "5px";
   slider2.style.backgroundColor = "rgb(179, 171, 171)";
@@ -147,16 +147,3 @@ BookSeats.addEventListener("click", () =>{
 
 var Seats = document.getElementsByClassName("grid-item")
 console.log("Seats Lgngh : " +Seats.length)
-
-function generateQRCode() { 
-  console.log("shvbvbvbvbvbvbvbvbvbvbvbvbvb")
-  let website = document.getElementById("website").value; 
-  if (website) {
-     let qrcodeContainer = document.getElementById("qrcode"); 
-         qrcodeContainer.innerHTML = ""; 
-         new QRCode (qrcodeContainer, website); 
-         document.getElementById("qrcode-container").style.display="block"; 
-  } else { 
-    alert("Please enter a valid URL");
-  } 
-} 
