@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="font-family: Arial, sans-serif">TechFusion 2024 Registration</h1>
+    <form>
+      <p>
+        Personal Details: <br />
+        <label style="width: 100px; display: inline-block"
+          >First Name<span>*</span>:</label
+        >
+        <input type="text" id="Firstname" name="Firstname" required /><br />
+
+        <label style="width: 100px; display: inline-block"
+          >Last Name<span>*</span>:</label
+        >
+        <input type="text" id="Lastname" name="Lastname" required /><br />
+
+        <label style="width: 100px; display: inline-block">Email:</label>
+        <input type="email" id="Email" name="Email" /><br />
+
+        <label style="width: 100px; display: inline-block">Phone:</label>
+        <input type="tel" id="Phone" name="Phone" /><br />
+      </p>
+
+      <p>
+        Profile Type <span>*</span>: <br /><input
+          type="radio"
+          name="ProfileType"
+          required
+        />
+        <label>Professional</label>
+        <br />
+        <input type="radio" name="ProfileType" />
+        <label>Student</label>
+        <br />
+        <input type="radio" name="ProfileType" />
+        <label>Enthusiast</label>
+        <br />
+      </p>
+
+      <p>
+        Areas of Interest<span>*</span> :<select required>
+          <option value="">Select One</option>
+          <option value="1">Web Development</option>
+          <option value="2">Data Science</option>
+          <option value="3">Cloud Computing</option>
+          <option value="4">Artificial Intelligence</option>
+          <option value="5">Cybersecurity</option>
+        </select>
+      </p>
+
+      <p>
+        WorkShops : <br /><input type="checkbox" />
+        <label>Intro to Quantum Computing</label>
+        <br />
+        <input type="checkbox" id="horns" name="horns" />
+        <label>Virtual Reality on the Web</label>
+        <br />
+        <input type="checkbox" id="scales" name="scales" />
+        <label>Cybersecurity 101</label>
+        <br />
+        <input type="checkbox" id="horns" name="horns" />
+        <label>AI in Medical Imaging</label>
+        <br />
+      </p>
+
+      <p>
+        Additional Information(Max 300 characters) <br /><textarea
+          maxlength="300"
+        ></textarea>
+        <br />
+      </p>
+      <p>
+        Preferred Days <br /><input type="checkbox" />
+        <label>Day 1</label>
+        <br />
+        <input type="checkbox" id="horns" name="horns" />
+        <label>Day 2</label>
+        <br />
+        <input type="checkbox" id="scales" name="scales" />
+        <label>Day 3</label>
+        <br />
+      </p>
+
+      <p>
+        Meal Preference<span>*</span> <br /><input
+          type="radio"
+          name="MealPreference"
+          required
+        />
+        <label>Vegetarian</label>
+        <br />
+        <input type="radio" name="MealPreference" />
+        <label>Vegan</label>
+        <br />
+        <input type="radio" name="MealPreference" />
+        <label>Non-Vegetarian</label>
+        <br />
+        <input type="radio" name="MealPreference" />
+        <label>No Preference</label>
+      </p>
+
+      <div>
+        <p style="display: inline-block">Terms and Conditions :</p>
+        <label>
+          <input type="checkbox" required /> I agree to the terms and conditions
+        </label>
+      </div>
+
+      <button style="width: 150px; height: 50px; border-radius: 3px">
+        SUBMIT
+      </button>
+    </form>
+  </body>
+</html>
+
+<!-- Instructions:
+ 
+ 
+Meal Preference:
+Include a set of radio buttons to capture meal preferences:
+ 
+Terms & Conditions:
+Add a checkbox for "I agree to the terms and conditions." This box should be mandatory to check before form submission.
+Submission:
+Finally, include a "Submit" button to submit the form.
+Ensure all the mandatory fields are marked and validations are appropriately set for fields like email and phone number. -->

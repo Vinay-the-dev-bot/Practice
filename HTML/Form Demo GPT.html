@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechFusion 2024 Registration</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      h1 {
+        text-align: center;
+      }
+      form {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      label {
+        font-weight: bold;
+      }
+      span {
+        color: red;
+      }
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      textarea,
+      select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      input[type="checkbox"],
+      input[type="radio"] {
+        margin-right: 5px;
+      }
+      input[type="submit"] {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TechFusion 2024 Registration</h1>
+    <form id="registration_form" action="submit.php" method="post">
+      <label for="first_name">First Name <span>*</span>:</label>
+      <input type="text" id="first_name" name="first_name" required /><br />
+
+      <label for="last_name">Last Name <span>*</span>:</label>
+      <input type="text" id="last_name" name="last_name" required /><br />
+
+      <label for="email">Email <span>*</span>:</label>
+      <input type="email" id="email" name="email" required /><br />
+
+      <label for="phone_number">Phone Number:</label>
+      <input type="tel" id="phone_number" name="phone_number" /><br />
+
+      <label>Profile Type <span>*</span>:</label><br />
+      <input
+        type="radio"
+        id="professional"
+        name="profile_type"
+        value="Professional"
+        required
+      />
+      <label for="professional">Professional</label><br />
+      <input type="radio" id="student" name="profile_type" value="Student" />
+      <label for="student">Student</label><br />
+      <input
+        type="radio"
+        id="enthusiast"
+        name="profile_type"
+        value="Enthusiast"
+      />
+      <label for="enthusiast">Enthusiast</label><br />
+
+      <label for="interest">Primary Domain of Interest <span>*</span>:</label>
+      <select id="interest" name="interest" required>
+        <option value="">Select One</option>
+        <option value="Web Development">Web Development</option>
+        <option value="Data Science">Data Science</option>
+        <option value="Cloud Computing">Cloud Computing</option>
+        <option value="Artificial Intelligence">Artificial Intelligence</option>
+        <option value="Cybersecurity">Cybersecurity</option></select
+      ><br />
+
+      <label>Workshops:</label><br />
+      <input
+        type="checkbox"
+        id="workshop1"
+        name="workshop"
+        value="Intro to Quantum Computing"
+      />
+      <label for="workshop1">Intro to Quantum Computing</label><br />
+      <input
+        type="checkbox"
+        id="workshop2"
+        name="workshop"
+        value="Virtual Reality on the Web"
+      />
+      <label for="workshop2">Virtual Reality on the Web</label><br />
+      <input
+        type="checkbox"
+        id="workshop3"
+        name="workshop"
+        value="Cybersecurity 101"
+      />
+      <label for="workshop3">Cybersecurity 101</label><br />
+      <input
+        type="checkbox"
+        id="workshop4"
+        name="workshop"
+        value="AI in Medical Imaging"
+      />
+      <label for="workshop4">AI in Medical Imaging</label><br />
+
+      <label for="additional_info"
+        >Additional Information (max 300 characters):</label
+      ><br />
+      <textarea
+        id="additional_info"
+        name="additional_info"
+        rows="4"
+        maxlength="300"
+      ></textarea
+      ><br />
+
+      <label>Preferred Days:</label><br />
+      <input type="checkbox" id="day1" name="preferred_day" value="Day 1" />
+      <label for="day1">Day 1</label><br />
+      <input type="checkbox" id="day2" name="preferred_day" value="Day 2" />
+      <label for="day2">Day 2</label><br />
+      <input type="checkbox" id="day3" name="preferred_day" value="Day 3" />
+      <label for="day3">Day 3</label><br />
+
+      <label>Meal Preference <span>*</span>:</label><br />
+      <input
+        type="radio"
+        id="vegetarian"
+        name="meal_preference"
+        value="Vegetarian"
+        required
+      />
+      <label for="vegetarian">Vegetarian</label><br />
+      <input
+        type="radio"
+        id="non_vegetarian"
+        name="meal_preference"
+        value="Non-Vegetarian"
+      />
+      <label for="non_vegetarian">Non-Vegetarian</label><br />
+      <input type="radio" id="vegan" name="meal_preference" value="Vegan" />
+      <label for="vegan">Vegan</label><br />
+
+      <label for="terms_and_conditions">
+        <input
+          type="checkbox"
+          id="terms_and_conditions"
+          name="terms_and_conditions"
+          required
+        />
+        I agree to the terms and conditions <span>*</span> </label
+      ><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
