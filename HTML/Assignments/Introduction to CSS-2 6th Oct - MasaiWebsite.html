@@ -4,34 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="masaiWebsite.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Dancing+Script&family=Pixelify+Sans&family=Poppins:wght@900&family=Supermercado+One&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="div1">
-      Applications for our 6th November Batches are now open!
-      <button>APPLY NOW</button>
+    <div id="NextBatch">
+      <p class="openAppli">
+        Applications for our 6th November Batches are now open!
+      </p>
+
+      <button class="openAppli" id="application">APPLY NOW</button>
     </div>
     <div id="div2">
-      <div id="masaiHome">Masai</div>
-      <div id="navigat">
-        <div class="navs">COURSES</div>
-        <div class="navs">FEES</div>
-        <div class="navs">EVENTS</div>
-        <div class="navs">LEARN</div>
-        <div class="navs">SUCCESS STORIES</div>
-        <div class="navs">HIRE FROM US</div>
+      <div id="masaiHome">
+        <img
+          src="https://masai-website-images.s3.ap-south-1.amazonaws.com/logo.png"
+          alt="Masai Logo"
+          style="align-items: center; margin-top: 5px"
+        />
+      </div>
+      <div id="navigate">
+        <div class="navs"><a href="#">COURSES</a></div>
+        <div class="navs"><a href="#">FEES</a></div>
+        <div class="navs"><a href="#">EVENTS</a></div>
+        <div class="navs"><a href="#">LEARN</a></div>
+        <div class="navs">
+          <a href="#" style="color: #cc032a">SUCCESS STORIES</a>
+        </div>
+        <div class="navs"><a href="#">HIRE FROM US</a></div>
       </div>
       <div id="interact">
-        <div class="inter">REFER & EARN</div>
-        <div class="inter">SIGN UP</div>
+        <div class="inter" id="refer">
+          <a href="#" style="color: blue; padding-top: 5px">REFER & EARN</a>
+        </div>
+        <div class="inter" id="signup">
+          <a href="#" style="color: #cc032a; padding-top: 50px">SIGN UP</a>
+        </div>
       </div>
     </div>
     <div id="div3">
-      <div>
-        Proof that dreams do come true A testament to what’s possible
-        <button>APPLY NOW</button>
+      <div id="dreams">
+        <p id="test1">Proof that dreams do come true</p>
+        <p id="test2">A testament to what’s possible</p>
+        <button id="applynow2">APPLY NOW</button>
       </div>
-      <div>VIDEO</div>
+      <div id="dreamsimg">
+        <img
+          src="https://i.vimeocdn.com/video/1728783116-f84988d3def63f261f16fc1c93e1dc8ef6dbfd08ce9b1c252b49287275ab819e-d?mw=600&mh=333"
+          alt=""
+        />
+      </div>
     </div>
-    <div id="div4">How is Masai Creating an Impact?</div>
+    <div id="impact">How is Masai Creating an Impact?</div>
   </body>
 </html>
