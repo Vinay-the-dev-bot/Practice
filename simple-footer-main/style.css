@@ -1,0 +1,54 @@
+footer {
+  background: rgba(67, 76, 204, 0.0515);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1170px;
+  flex-grow: 1;
+  margin-top: 80px;
+  display: flex;
+}
+
+.footer-col {
+  flex-grow: 1;
+}
+
+.logo-social {
+  flex-basis: 33.32%;
+}
+
+.causae {
+  flex-basis: 16.66%;
+}
+
+.aperiri {
+  flex-basis: 16.66%;
+}
+
+.latest-posts {
+  flex-basis: 33.32%;
+}
+
+.footer-logo {
+  margin-bottom: 40px;
+}
+
+.social {
+  display: flex;
+  gap: 13px;
+}
+
+.aboutus {
+  width: 270px;
+  margin-bottom: 32px;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+#post1 {
+}
