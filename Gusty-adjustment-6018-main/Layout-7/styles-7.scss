@@ -1,0 +1,20 @@
+@import "vinay-7.scss"; 
+@import "geetesh-7.scss";
+@import "chandan-7.scss";
+@import "poornima-7.scss";
+@import "nidhi-7.scss";
+
+
+body{
+background-color: #F5F6FC;
+}
+.middle {
+    width: 80%;
+    margin: auto;
+    padding: 64px;
+
+    @media all and (max-width:$mobile) {
+        width: 80%;
+        padding: 10px;
+    }
+}

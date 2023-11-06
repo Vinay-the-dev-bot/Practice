@@ -1,0 +1,192 @@
+.cont {
+  width: 100%;
+  > .arrow {
+    display: flex;
+    gap: 10px;
+  }
+  > .img1 {
+    width: 100%;
+    img {
+      width: 100%;
+      // height: 558.28px;
+      margin-top: 5%;
+    }
+  }
+
+  .elo {
+    //styleName: Text;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 4%;
+  }
+  .head > h1 {
+    //styleName: H1;
+    width: 100%;
+    font-family: DM Serif Display;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 4%;
+
+    @media all and (max-width: $mobile) {
+      width: 100%;
+      margin-top: 4%;
+    }
+  }
+
+  .cayla {
+    display: flex;
+    gap: 12px;
+    margin-top: 4%;
+    align-items: center;
+
+    @media all and (max-width: $mobile) {
+      display: grid;
+      width: 100%;
+      //  gap:3px;
+      //  margin-right: -1rem;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+    .date {
+      @media all and (max-width: $mobile) {
+        // width:100%;
+        margin-right: -1rem;
+        display: flex;
+        align-items: center;
+        margin-left: -2rem;
+        // gap:10PX;
+        // display: flex;
+        // flex-direction: column;
+      }
+    }
+    .name {
+      @media all and (max-width: $mobile) {
+        // width:100%;
+        margin-right: -1rem;
+        margin-left: -3rem;
+        // gap:10PX;
+        // display: flex;
+        // flex-direction: column;
+      }
+    }
+    .chat {
+      @media all and (max-width: $mobile) {
+        width: 20%;
+        padding-right: -1rem;
+        margin-top: 0rem;
+        margin-left: -4px;
+      }
+    }
+    .three {
+      font-family: DM Sans;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+      @media all and (max-width: $mobile) {
+        // width:80%;
+        // display: flex;
+        // flex-direction: column;
+        margin-left: -4.5rem;
+        margin-right: -1rem;
+      }
+    }
+  }
+
+  .rect {
+    display: flex;
+    gap: 24px;
+    margin-top: 4%;
+    .rec {
+      margin-top: 12px;
+      background-color: rgba(255, 221, 120, 1);
+      width: 2%;
+      // height:10%;
+      border-radius: 12px;
+      @media all and (max-width: $mobile) {
+        width: 6%;
+        border-radius: 12px;
+      }
+    }
+    > p {
+      margin-top: 20px;
+      color: #000;
+      font-family: DM Sans;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+      @media all and (max-width: $mobile) {
+        margin-top: 1rem;
+      }
+    }
+  }
+  // .rec{
+  //   margin-top: 12px;
+  //   background-color:rgba(255, 221, 120, 1);
+  //   width:2%;
+  //   // height:10%;
+  //   border-radius:12px;
+  //   @media all and (max-width:$mobile){
+  //     width:6%;
+  //     border-radius:12px;
+  //   }
+  // }
+  .rect p {
+    margin-top: 20px;
+    @media all and (max-width: $mobile) {
+      margin-top: 1rem;
+    }
+  }
+  .name {
+    //styleName: Text;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  // .three{
+  //   //styleName: Text;
+  //   font-family: DM Sans;
+  //   font-size: 16px;
+  //   font-weight: 700;
+  //   line-height: 24px;
+  //   letter-spacing: 0px;
+  //   text-align: left;
+  // }
+  .altera {
+    //styleName: Text_Gray;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    margin-top: 5%;
+  }
+  .rect img {
+    height: 60px;
+  }
+  .erro p {
+    //styleName: Text_Gray;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 5%;
+  }
+}

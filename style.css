@@ -1,0 +1,24 @@
+button {
+  background-color: red;
+}
+
+button {
+  background-color: red;
+  color: white;
+  width: 100px;
+}
+
+.button2 {
+  background-color: green;
+  color: aqua;
+  width: 500px;
+  text-indent: 5px;
+}
+
+.button3 {
+  background-color: yellow;
+  color: blue;
+  width: fit-content;
+}
+
+/*# sourceMappingURL=style.css.map */

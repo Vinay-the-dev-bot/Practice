@@ -1,0 +1,8 @@
+button{
+    background-color: red;
+}
+@mixin button($bg:red,$col:white,$wid:100px){
+background-color: $bg;;
+color: $col;
+width: $wid ; 
+}

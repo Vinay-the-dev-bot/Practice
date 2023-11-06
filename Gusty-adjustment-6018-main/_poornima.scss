@@ -1,0 +1,347 @@
+$fonttype: 'DM Sans', sans-serif;
+
+.yellow {
+  background-color: yellow;
+}
+.comments-container {
+  width: 100%;
+  // height: 720px;
+  // background-color: aquamarine;
+  // border: 1px solid;
+}
+.Comment-content {
+  width: 217px;
+  height: 48px;
+  // background-color: bisque;
+  // margin-left: 135px;
+  // margin-top: 2890px;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  line-height: 48px;
+}
+.Comment-content {
+  h3 {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    font-family: DM Serif Display;
+  }
+}
+.image-container {
+  margin-top: 35px;
+}
+
+.image-1 {
+  width: 100%;
+  height: 189px;
+  // background-color: chartreuse;
+  // border: 1px solid;
+  display: flex;
+  margin-top: 38px;
+}
+@media (max-width: $mobile) {
+  .image-1 {
+    height: 330px;
+    width: 100%;
+    margin-top: 38px;
+  }
+}
+
+.date {
+  color: #000;
+  font-family: $fonttype;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+@media (max-width: $mobile) {
+  .date {
+    height: 24px;
+    width: 119px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 5px;
+    font-family: $fonttype;
+  }
+}
+.name {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 1px;
+  font-family: $fonttype;
+}
+@media (max-width: $mobile) {
+  .name {
+    height: 32px;
+    width: 161px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    color: #000;
+    margin-left: 5px;
+    margin-top: 1px;
+  }
+}
+.bio {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 6px;
+  font-family: $fonttype;
+}
+@media (max-width: $mobile) {
+  .bio {
+    width: 179px;
+    // height: 170px;
+    flex-shrink: 0;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 5px;
+    margin-top: 6px;
+    word-wrap: break-word;
+  }
+}
+.reply {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 10px;
+  font-family: $fonttype;
+}
+@media (max-width: $mobile) {
+  .reply {
+    width: 44px;
+    height: 24px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-left: 5px;
+  }
+}
+.imag {
+  width: 20%;
+  height: 189px;
+  // background-color: beige;
+}
+.imag img {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+}
+@media (max-width: $mobile) {
+  .imag {
+    height: 109px;
+    width: 109px;
+  }
+}
+#imag-1 {
+  height: 189px;
+  width: 283px;
+}
+#imag-1 img {
+  margin: 20px 0px 0px 70px;
+}
+@media (max-width: $mobile) {
+  #imag-1 img {
+    margin: 20px 0px 0px 20px;
+  }
+}
+
+.image-1-container {
+  height: 200px;
+  width: 80%;
+  // background-color: rgb(210, 210, 78);
+}
+.image-2 {
+  width: 100%;
+  height: 189px;
+  // background-color: chartreuse;
+  // border: 1px solid;
+  display: flex;
+  margin-top: 31px;
+}
+@media (max-width: $mobile) {
+  .image-2 {
+    height: 280px;
+    width: 100%;
+  }
+}
+.image-3 {
+  width: 100%;
+  height: 189px;
+  // background-color: chartreuse;
+  // border: 1px solid;
+  display: flex;
+  margin-top: 31px;
+}
+@media (max-width: $mobile) {
+  .image-3 {
+    height: 280px;
+    width: 100%;
+  }
+}
+.hr {
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: $mobile) {
+  .hrr {
+    width: 100%;
+  }
+}
+
+.leave-comment {
+  // height: 422px;
+  width: 100%;
+  // border: 2px solid red;
+  margin-top: 90px;
+  padding: 3px;
+}
+.leave-comment {
+  h3 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    color: #000;
+    font-family: DM Serif Display;
+  }
+}
+@media (max-width: $mobile) {
+  .leave-comment {
+    h3 {
+      font-family: DM Serif Display;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 48px;
+    }
+  }
+}
+.form-main {
+  // flex-direction: row;
+  // justify-content:space-between;
+  // align-items: center;
+  width: 100%;
+  // height: 38px;
+  margin-top: 10px;
+  display: grid;
+  // border: 2px solid black;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 55px);
+  // flex-wrap: wrap;
+  // justify-content:start;
+  gap: 3.3rem;
+  // padding: 3px;
+  // padding: 5px;
+  // gap:inherit;
+}
+@media (max-width: $mobile) {
+  .form-main {
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(2, 38px);
+    gap: 3.3rem;
+
+    // display: flex;
+    // flex-direction: column;
+    // flex-wrap: nowrap;
+    // justify-content: flex-start;
+    // justify-content: start;
+    // justify-content: start;
+    // gap: 28px;
+  }
+}
+.input-content {
+  width: 98%;
+  height: 98%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #dadada;
+  // padding-left: 20px;
+
+  // width: 100%;
+  // margin-top: 28px;
+  // border: 2px solid green;
+}
+@media (max-width: $mobile) {
+  // row-gap: 3.3rem;
+  //     .input-content{
+  //     //    height: 48px;
+  //     //    width: 100%;
+  //     //    width:300px ;
+  //     }
+}
+
+.text-area {
+  textarea {
+    height: 144px;
+    // width:303px ;
+    width: 99%;
+    border-radius: 5px;
+    margin-top: 28px;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #00000080;
+    resize: none;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #dadada;
+  }
+}
+.text-area {
+  ::placeholder {
+    font-family: $fonttype;
+    font-size: 16px;
+  }
+
+  // background-color: aqua;
+}
+
+.btn-submit {
+  width: 170px;
+  height: 48px;
+  margin-top: 32px;
+  border-radius: 5px;
+  flex-shrink: 0;
+    border:none;
+  background-color: #434ccc;
+  color: white;
+  margin-top: 28px;
+  // border: none;
+}
+@media (max-width: $mobile) {
+  .btn-submit {
+    height: 48px;
+    width: 170px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+}

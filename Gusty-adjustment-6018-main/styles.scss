@@ -1,0 +1,48 @@
+@import "vinay.scss";
+@import "geetesh.scss";
+@import "chandan.scss";
+@import "poornima.scss";
+@import "nidhi.scss";
+
+body{
+  background-color: rgba(67,76,204,0.0515);
+}
+.article{
+width:80%;
+margin: auto;
+margin-top:3%;
+display: flex;
+// border: 2px solid red;
+justify-content: space-between;
+@media all and (max-width:$mobile) {
+flex-direction: column;
+// width: 100%;
+}
+.left{
+// padding-left: 1rem;
+// padding-right: 1rem;
+// display: flex;
+// justify-content: start;
+// align-items: start;
+// flex-direction: column;
+// border: 2px solid blue;
+width: 69%;
+background-color: none;
+@media all and (max-width:$mobile) {
+  width: 100%;
+}
+}
+.right{
+width:25%;
+// border: 2px solid black;
+// height: 2200px;
+display: flex;
+flex-direction: column;
+justify-content: start;
+align-items: start;
+gap: 40px;
+@media all and (max-width:$mobile) {
+  width: 100%;
+}
+}
+}

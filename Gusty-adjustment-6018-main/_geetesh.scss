@@ -1,0 +1,298 @@
+#maluisset-to-related {
+  margin-top: 1.6rem;
+  #heading-maluisset {
+    color: #000;
+    /* H4 */
+    font-family: DM Serif Display;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem; /* 133.333% */
+    margin-bottom: 1.4375rem;
+  }
+  .para-maluisset {
+    color: rgba(0, 0, 0, 0.5);
+
+    /* Text_Gray */
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 150% */
+    padding-right: 0.5625rem;
+  }
+  #list-maluisset {
+    color: #000;
+
+    /* Text */
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem; /* 150% */
+    margin-top: 1.25rem;
+    margin-bottom: 2.5rem;
+    p > span {
+      margin-right: 0.5rem;
+    }
+  }
+  .line-maluisset {
+    width: 100%;
+    height: 1px;
+    flex-shrink: 0;
+    opacity: 0.1011;
+    background: #000;
+    margin-top: 1.4375rem;
+    // margin-right: 1.25rem;
+    margin-bottom: 2.688rem;
+  }
+  #parro-share {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0.2rem;
+    @media all and (max-width: $mobile) {
+      flex-direction: column;
+      row-gap: 2.5rem;
+    }
+
+    #parro-btn {
+      display: flex;
+      gap: 0.875rem;
+      flex-wrap: 0;
+
+      > button {
+        background: none;
+        width: 4.125rem;
+        height: 2rem;
+        flex-shrink: 0;
+        border-radius: 5px;
+        border: 1px solid #434ccc;
+        color: #434ccc;
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        //   line-height: 24px; /* 150% */
+      }
+    }
+    #parro-share-on {
+      display: flex;
+      gap: 1.125rem;
+      align-items: center;
+      > p {
+        color: rgba(0, 0, 0, 0.5);
+        // text-align: right;
+
+        /* Text_Gray */
+        font-family: DM Sans;
+        font-size: 1rem;
+        // font-style: normal;
+        font-weight: 400;
+        // line-height: 24px; /* 150% */
+      }
+
+      > div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        > p {
+          &:nth-child(1) {
+            margin-right: 0.813rem;
+          }
+          &:nth-child(2) {
+            margin-right: 0.813rem;
+          }
+        }
+      }
+    }
+  }
+  // day-3
+  #author-card {
+    box-sizing: border-box;
+    width: 99.8%;
+    padding: 1rem;
+    // flex-shrink: 0;
+    margin-top: 3rem;
+    border-radius: 0.3125rem;
+    background: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+    margin-bottom: 4.7rem;
+
+    #author-card-img-peragraph {
+      // border: 2px solid black;
+      width: 97%;
+      height: 100%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      @media all and (max-width: $mobile) {
+        width: 100%;
+        align-items: start;
+        margin-bottom: 1.5rem;
+      }
+      #author-img {
+        @media all and (max-width: $mobile) {
+          margin-left: 13px;
+        }
+      }
+      #author-img > img {
+        // border: 2px solid rgba(0, 0, 0, 0.101);
+        width: 6.5rem;
+        border-radius: 50%;
+      }
+      .aut-details {
+        // border: 2px solid black;
+        width: 100%;
+        height: 70%;
+        > p:nth-child(1) {
+          color: #000;
+
+          /* Text_Small */
+          font-family: DM Sans;
+          font-size: 0.75rem;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 1.5rem; /* 200% */
+          @media all and (max-width: $mobile) {
+            margin-top: 1.5rem;
+            margin-left: -8px;
+          }
+        }
+        > h4 {
+          color: #000;
+
+          /* Text_Big */
+
+          font-family: DM Sans;
+          font-size: 1.25rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 2rem; /* 160% */
+          margin-top: 0.2rem;
+          @media all and (max-width: $mobile) {
+            width: 200%;
+            margin-top: -0.1rem;
+            margin-left: -9px;
+          }
+        }
+        .aut-details-pera {
+          color: rgba(0, 0, 0, 0.5);
+
+          /* Text_Gray */
+          font-family: DM Sans;
+          font-size: 0.9rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 1.5rem; /* 150% */
+          width: 100%;
+          margin-top: 0.4rem;
+          @media all and (max-width: $mobile) {
+            width: 222%;
+            margin-top: 2.5rem;
+            margin-left: -138px;
+          }
+        }
+      }
+    }
+  }
+  // day-3
+  // related
+  #maluisset-related-heading {
+    color: #000;
+
+    /* H3 */
+    font-family: DM Serif Display;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem; /* 120% */
+    margin-bottom: 1.5rem;
+  }
+  .related {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 4.62rem;
+    @media all and (max-width: $mobile) {
+      width: 100%;
+      margin: 0;
+      flex-direction: column;
+    }
+    .relat-item {
+      width: 47.6%;
+      // height: 30rem;
+      padding-bottom: 1.5rem;
+      flex-shrink: 0;
+      border-radius: 0.3125rem;
+      background: #fff;
+      box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+      @media all and (max-width: $mobile) {
+        width: 100%;
+        // flex-direction: column;
+        margin-bottom: 1.5rem;
+      }
+      .related-card {
+        width: 90%;
+        margin: auto;
+        padding-top: 1rem;
+
+        .related-card-img {
+          width: 100%;
+        }
+        .related-card-text {
+          margin-top: 1rem;
+          margin-bottom: 1.06rem;
+          color: rgba(0, 0, 0, 0.5);
+
+          /* Text_Gray */
+          font-family: DM Sans;
+          font-size: 1rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 1.5rem; /* 150% */
+        }
+        .related-card-h4 {
+          color: #000;
+
+          /* H4 */
+          font-family: DM Serif Display;
+          font-size: 1.5rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 2rem; /* 133.333% */
+          margin-bottom: 1.5rem;
+          @media all and (max-width: $mobile) {
+            width: 100%;
+          }
+        }
+        > hr {
+          width: 105.4%;
+          height: 0.0625rem;
+          // flex-shrink: 0;
+          opacity: 0.1011;
+          background: #000;
+          margin-bottom: 1rem;
+        }
+        .learn-and-sib {
+          display: flex;
+          gap: 0.44rem;
+          align-items: center;
+          .relat-card-learn {
+            color: #000;
+
+            /* Text */
+            font-family: DM Sans;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 1.5rem; /* 150% */
+          }
+        }
+      }
+    }
+  }
+}
