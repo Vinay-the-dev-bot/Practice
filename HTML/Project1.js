@@ -150,12 +150,20 @@ console.log("Seats Lgngh : " + Seats.length)
 
 var inc = () => {
   let x = Number(document.getElementById("display").value); 
-  x++;
-  document.getElementById("display").value = x;
+if (x <= 49) {
+    x++;
+    document.getElementById("display").value = x;
+  } else {  
+  document.getElementById("display").value = 50;
+  }
 }
 
 var dec = () => {
   let x = Number(document.getElementById("display").value); 
-  x--;
-  document.getElementById("display").value = x;
+  if (x >= 1) {
+    x--;
+    document.getElementById("display").value = x;
+  } else {  
+  document.getElementById("display").value = 0;
+  }
 }
