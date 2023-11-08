@@ -86,3 +86,16 @@ console.log(  Symbol.keyFor(symbol1))
 console.log(symbol2)
 console.log(Symbol.keyFor(symbol2)); // Output: 'world'
 let xyz = 'hello'
+
+var x = 1;
+var y = 1;
+x++;
+++y;
+console.log(x, " - ", y);
+
+let age = "40"
+let nex = +age + 1
+console.log(nex, "--")
+ let a = 5;
+let b = 10;
+console.log(a && b);

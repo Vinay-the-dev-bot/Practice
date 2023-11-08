@@ -1,76 +1,100 @@
-body, html{
-    height:100%;
-    margin:0;
-    font-size:16px;
-    font-family:"Lato", sans-serif;
-    font-weight:400;
-    line-height:1.8em;
-    color:#666;
-  }
-  #img1,#img2,#img3{
-    position: relative; 
-    opacity: .7;
-    background-attachment:fixed;
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+#img1,
+#img2,
+#img3 {
+  position: relative;
+  opacity: 0.7;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#img1 {
+  background-image: url("Lambo.jpg");
+  min-height: 100%;
+}
+#img2 {
+  background-image: url("Lammbboo.jpg");
+  min-height: 100%;
+}
+#img3 {
+  background-image: url("cool-background.png");
+  min-height: 100%;
+}
+#text1,
+#text2,
+#text3 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+#text1 #border1,
+#text2 #border2,
+#text3 #border3 {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
 
-}
-#img1{
-    background-image: url("Lambo.jpg"); 
-    min-height:100%;
-    
-}
-#img2{
-    background-image: url("Lammbboo.jpg"); 
-    min-height:100%;
-}
-#img3{
-    background-image: url("cool-background.png"); 
-    min-height:100%;
-} 
-  #text1,#text2,#text3{
-    position:absolute;
-    top:50%;
-    width:100%;
-    text-align:center;
-    color:#000;
-    font-size:27px;
-    letter-spacing:8px;
-    text-transform:uppercase;
-  }
-  #text1 #border1,  #text2 #border2, #text3 #border3{
-    background-color: #111;
-    color:#fff;
-    padding:20px;
-  }
-   
-  div a{
-      /* font-family:'Courier New', Courier, monospace; */
-      
-      font-size: 25px;
-      color:burlywood;
-      
-    
+div a {
+  /* font-family:'Courier New', Courier, monospace; */
 
-  }
-        
- #lorem1,#lorem2,#lorem3{
-    background-color: #666; 
-    font-family: 'Supermercado One', cursive;
-    /* margin: 0 25px; */
- }
-  
- #lorem1 a,#lorem2 a,#lorem3 a{
-    /* background-color: #666;  */
-    margin: 0 25px;
-    justify-content: center;
-  
- }
- #box{
-     background-color: rgb(138, 114, 114);
-     justify-content: center;
-     padding:  25px 50px;
- }
-  
-   
+  font-size: 25px;
+  color: burlywood;
+}
+
+#lorem1,
+#lorem2,
+#lorem3 {
+  background-color: #666;
+  font-family: "Supermercado One", cursive;
+  /* margin: 0 25px; */
+}
+
+#lorem1 a,
+#lorem2 a,
+#lorem3 a {
+  /* background-color: #666;  */
+  margin: 0 25px;
+  justify-content: center;
+}
+#box {
+  background-color: rgb(138, 114, 114);
+  justify-content: center;
+  padding: 25px 50px;
+}
+
+#header {
+  width: 250px;
+  text-align: center;
+  border: 1px solid black;
+  margin-bottom: 50px;
+}
+.text {
+  display: flex;
+  gap: 20px;
+}
+button {
+  width: 50px;
+  font-size: 40px;
+}
+#display {
+  width: 100px;
+  text-align: center;
+  height: 40px;
+  border: 1px solid black;
+}

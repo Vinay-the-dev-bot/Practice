@@ -6,6 +6,7 @@ button {
   background-color: red;
   color: white;
   width: 100px;
+  border-style: 1px solid black;
 }
 
 .button2 {

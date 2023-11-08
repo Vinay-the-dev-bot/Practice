@@ -1,7 +1,8 @@
  @import "button.scss";
 
  button {
-     @include button()
+     @include button();
+     border-style:1px solid black;
  }
 
  .button2 {

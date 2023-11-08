@@ -146,4 +146,16 @@ BookSeats.addEventListener("click", () =>{
 })
 
 var Seats = document.getElementsByClassName("grid-item")
-console.log("Seats Lgngh : " +Seats.length)
+console.log("Seats Lgngh : " + Seats.length)
+
+var inc = () => {
+  let x = Number(document.getElementById("display").value); 
+  x++;
+  document.getElementById("display").value = x;
+}
+
+var dec = () => {
+  let x = Number(document.getElementById("display").value); 
+  x--;
+  document.getElementById("display").value = x;
+}
