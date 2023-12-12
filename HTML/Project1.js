@@ -167,3 +167,28 @@ var dec = () => {
   document.getElementById("display").value = 0;
   }
 }
+
+const url = 'https://hotels4.p.rapidapi.com/locations/v3/search?q=new%20york';
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': '6bef58b5e8msh23550006c382291p1de9e0jsn314effa1ed3c',
+		'X-RapidAPI-Host': 'hotels4.p.rapidapi.com'
+	}
+}; 
+// try {
+// 	const response = await fetch(url, options);
+// 	const result = await response.json();
+// 	console.log("Result : " , result);
+// } catch (error) {
+// 	console.error(error);
+// }
+
+async function fetchData() { 
+  let response = await fetch(url, options);
+  // console.log("Response : ", response)
+  // console.log(response.getItem("X-Total-Count"))
+	let result = await response.json();
+	console.log("Result : " , result.sr);
+}
+fetchData();
