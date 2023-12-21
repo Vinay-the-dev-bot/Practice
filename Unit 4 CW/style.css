@@ -1,0 +1,476 @@
+body {
+  margin: 5px 5%;
+}
+body #header {
+  padding: 0 50px;
+  background-color: white;
+}
+body #header #topbar {
+  width: 100%;
+  height: 15px;
+  display: inline-flex;
+  border-top: 1px solid #bcbcbc;
+}
+body #header #topbar .bar:nth-child(1) {
+  border-left: none;
+  width: 47%;
+}
+body #header #topbar .bar {
+  width: 13%;
+  border-left: 1px solid #bcbcbc;
+}
+body #header #navBar {
+  display: flex;
+}
+body #header #navBar #logo {
+  width: 48%;
+  font-size: 50px;
+}
+body #header #navBar #navBarlist {
+  list-style: none;
+  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 25px;
+  row-gap: 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: "Afacad", sans-serif;
+}
+body #header #navBar #navBarlist > p {
+  height: 20px;
+  margin: 0;
+}
+body #header #navBar #navBarlist > a {
+  text-decoration: none;
+  color: black;
+}
+body #header #navBar #navBarlist > a p {
+  height: 20px;
+  margin: 0;
+}
+body #header #navBar #navBarlist .bold {
+  font-weight: 700;
+}
+body #header #navBar #contactUS {
+  padding-top: 20px;
+  font-family: "Afacad", sans-serif;
+}
+body #footer {
+  background-color: #f9f9f9;
+}
+body #footer #footer1 {
+  font-family: "Afacad", sans-serif;
+  padding: 0 30px;
+  display: flex;
+  height: 150px;
+  align-items: center;
+}
+body #footer #footer1 div {
+  padding: 20px;
+  font-size: 30px;
+  width: 25%;
+}
+body #footer #footer1 #socials {
+  width: 25%;
+}
+body #footer #footer1 #socials a {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+body #footer #footer1 #socials a img {
+  width: 25px;
+  margin: 25%;
+}
+body #footer #footer1 #emailInput {
+  height: 40px;
+  width: 250px;
+  border-radius: 20px;
+  border-style: none;
+  padding-left: 10px;
+}
+body #footer #footer1 .material-symbols-outlined {
+  background-color: black;
+  color: white;
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+  position: absolute;
+  margin-left: -44px;
+  border-radius: 50%;
+}
+body #footer hr {
+  width: 90%;
+}
+body #footer #footer2 {
+  font-family: "Afacad", sans-serif;
+  display: flex;
+  padding: 0 50px;
+}
+body #footer #footer2 #desc {
+  width: 40%;
+}
+body #footer #footer2 #desc p {
+  width: 200px;
+}
+body #footer #footer2 #contact {
+  width: 30%;
+}
+body #footer #footer2 #company {
+  width: 15%;
+}
+body #footer #footer2 #company > a {
+  text-decoration: none;
+  color: black;
+}
+body #footer #footer2 #company > a p {
+  height: 20px;
+  margin: 0;
+}
+body #footer #footer2 #resource {
+  width: 15%;
+}
+body #footer #footer3 {
+  font-family: "Afacad", sans-serif;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  padding: 0 50px;
+}
+body #footer #footer3 #copyright {
+  width: 50%;
+}
+body #footer #footer3 #supportePayments {
+  display: flex;
+}
+body #footer #footer3 img {
+  width: 120px;
+}
+body #footer3 {
+  font-family: "Afacad", sans-serif;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  padding: 0 50px;
+}
+body #footer3 #copyright {
+  width: 50%;
+}
+body #footer3 #supportePayments {
+  display: flex;
+}
+body #footer3 img {
+  width: 120px;
+}
+
+#services h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+#services #ser {
+  display: grid;
+  gap: 22px 23px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-bottom: -266px;
+  justify-content: space-between;
+  margin-left: 85px;
+  margin-right: 135px;
+}
+#services #ser > div {
+  background-color: #f9f9f9;
+  height: 300px;
+  width: 300px;
+  border-radius: 8%;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 45px;
+}
+#services #ser > div p {
+  color: grey;
+  font-weight: 300;
+}
+#services #ser > div h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+@media screen and (min-width: 100px) and (max-width: 650px) {
+  #services #ser {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+
+#travel h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+#travel #flexbox {
+  display: flex;
+  gap: 3px;
+  margin-left: 85px;
+  margin-right: 135px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+#travel #flexbox > div {
+  height: 400px;
+  width: 300px;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+#travel #flexbox > div p {
+  color: grey;
+  font-weight: 300;
+}
+#travel #flexbox > div h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+#first-mid-section {
+  width: auto;
+  height: 730px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 0px;
+}
+#first-mid-section .first-sec-img {
+  width: 800px;
+  height: 500px;
+}
+#first-mid-section .first-sec-img img {
+  width: 100%;
+  height: 700px;
+}
+#first-mid-section .first-text-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  margin-right: 0px;
+  padding-right: 0px;
+  gap: 6%;
+}
+#first-mid-section .first-text-section .first-text-heading {
+  width: 600px;
+  height: 25%;
+  font-size: 25px;
+  margin-top: 17%;
+  margin-left: 35px;
+}
+#first-mid-section .first-text-section .first-text-heading h1 {
+  font-family: "Noto Sans", sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  font-size: 55px;
+}
+#first-mid-section .first-text-section .round-text-div {
+  width: 650px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  gap: 8%;
+}
+#first-mid-section .first-text-section .round-text-div .round-img {
+  width: 200px;
+  height: 180px;
+  margin-left: 25px;
+}
+#first-mid-section .first-text-section .round-text-div img {
+  width: 200px;
+  height: 180px;
+}
+#first-mid-section .first-text-section .round-text-div .round-div-text {
+  height: 200px;
+  width: 400px;
+}
+#first-mid-section .first-text-section .round-text-div .round-div-text h3 {
+  color: rgb(63, 63, 63);
+  font-family: "Afacad", sans-serif;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.second-mid-section {
+  width: auto;
+  height: 850px;
+  margin-top: 20px;
+  display: flex;
+}
+.second-mid-section .second-text-section {
+  width: 600px;
+  margin: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.second-mid-section .second-text-section .second-section-heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  font-weight: 500;
+  height: 250px;
+  padding: 0px;
+}
+.second-mid-section .second-text-section .travel-plan {
+  width: 600px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+}
+.second-mid-section .second-text-section .travel-plan span {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+.second-mid-section .second-text-section .travel-plan span .point-one {
+  font-weight: lighter;
+}
+.second-mid-section .second-text-section .travel-plan span .point-text {
+  font-weight: bolder;
+}
+.second-mid-section .second-text-section .travel-plan .travel-text {
+  font-family: "Poppins", sans-serif;
+  color: rgb(63, 63, 63);
+}
+.second-mid-section .second-text-section .flight-booking {
+  width: 600px;
+  height: 170px;
+}
+.second-mid-section .second-text-section .accomodation {
+  width: 600px;
+  height: 170px;
+}
+.second-mid-section .second-img-section {
+  width: 800px;
+  margin: 5px 5px 5px 5px;
+}
+.second-mid-section .second-img-section img {
+  width: 800px;
+}
+
+#life-memory {
+  font-family: "Rethink Sans", sans-serif;
+}
+#life-memory .hidenUser {
+  display: none;
+}
+#life-memory .showUser {
+  display: block;
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: -2rem;
+}
+#life-memory #life-memory-heading {
+  margin: auto;
+  margin-top: 4rem;
+  width: 60%;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+#life-memory .life-memory-btns {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+#life-memory .life-memory-btns button {
+  padding: 1rem 1.9rem;
+  font-size: 0.8rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+#life-memory .life-memory-btns p {
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+#life-memory .life-memory-btns p > span {
+  font-size: 1.3rem;
+  margin: 0px;
+}
+#life-memory .life-memory-trk-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+  gap: 4rem;
+}
+#life-memory .life-memory-trk-container .img-box > img {
+  width: 84%;
+}
+#life-memory .life-memory-trk-container .trekking-container .trekking-box {
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+#life-memory .life-memory-trk-container .trekking-container .trekking-box > h3 {
+  margin: 0;
+  font-weight: 500;
+}
+#life-memory .life-memory-trk-container .trekking-container .trekking-box > img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin-right: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+#life-memory .life-memory-trk-container .trekking-container .trekking-box .trekking-details > h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0;
+}
+#life-memory .life-memory-trk-container .trekking-container .trekking-box .trekking-details > p {
+  margin-top: 0.7rem;
+}
+
+#Discover-the-touch-container {
+  margin-top: 2rem;
+}
+#Discover-the-touch-container > h1 {
+  margin: auto;
+  margin-top: 3.6rem;
+  width: 90%;
+  text-align: center;
+  font-size: 3.8rem;
+  font-weight: 700;
+  font-family: "Rethink Sans", sans-serif;
+}
+#Discover-the-touch-container > .Discover-the-touch-imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+#Discover-the-touch-container > .Discover-the-touch-imgs > img {
+  width: 21%;
+  height: auto;
+  border-radius: 1.4rem;
+}
+#Discover-the-touch-container > .Discover-the-touch-imgs > .m-top {
+  margin-top: 4rem;
+}/*# sourceMappingURL=style.css.map */

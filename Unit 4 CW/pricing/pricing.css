@@ -1,0 +1,165 @@
+section {
+  margin: 20px 0;
+}
+
+h1,
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+.package {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px;
+}
+
+body {
+  font-family: "Afacad", sans-serif;
+
+  background-color: #f4f4f4;
+}
+.paginated-buttons {
+  align-items: center;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 15px;
+  background-color: #3498db;
+}
+
+#pagination-wrapper {
+  /* margin-top: 10px;
+  margin-left: 35%;
+  display: inline-block;
+  gap: 5px; */
+  margin: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 5px;
+}
+
+#pricingNav {
+  background-color: #3498db;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+#pricingNav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+#pricingNav a:hover {
+  background-color: #2980b9;
+  color: white;
+}
+
+#pricingNav a.active {
+  background-color: #2980b9;
+  color: white;
+}
+
+.package {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+/* Styling for the card container */
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Styling for individual cards */
+.card {
+  border-radius: 10px;
+  width: 25%;
+  padding: 2rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Styling for the image section within the card */
+
+/* Styling for card content */
+/* Styling for the image section within the card */
+.image-section {
+  position: relative;
+  overflow: hidden;
+  height: 200px; /* Set a fixed height for better alignment */
+}
+
+.image-section img {
+  width: 250px;
+  object-fit: cover;
+  /* Maintain image aspect ratio and cover the entire container */
+  display: block;
+  margin: auto;
+}
+
+/* Styling for card content */
+.card-title {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.card-state {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.card-price {
+  font-size: 1.25rem;
+  color: #27ae60; /* Green color for price */
+  margin-top: 5px;
+}
+
+.explore-button {
+  align-items: center;
+  width: 130px;
+  height: 30px;
+  margin: 5px;
+  color: #f0f0f0;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 15px;
+  background-color: #08314d;
+  font-family: "Afacad", sans-serif;
+}
+
+.heading {
+  margin-top: 10px;
+}

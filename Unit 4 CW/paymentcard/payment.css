@@ -1,0 +1,210 @@
+body {
+  font-family: "Afacad", sans-serif;
+  background-color: #f9f9f9;
+  margin: 5px 5%;
+}
+body #header {
+  margin-bottom: 3rem;
+  padding: 0 50px;
+  background-color: #f9f9f9;
+}
+body #header #topbar {
+  width: 100%;
+  height: 15px;
+  display: inline-flex;
+  border-top: 1px solid #bcbcbc;
+}
+body #header #topbar .bar:nth-child(1) {
+  border-left: none;
+  width: 47%;
+}
+body #header #topbar .bar {
+  width: 13%;
+  border-left: 1px solid #bcbcbc;
+}
+body #header #navBar {
+  display: flex;
+}
+body #header #navBar #logo {
+  width: 48%;
+  font-size: 50px;
+}
+body #header #navBar #navBarlist {
+  list-style: none;
+  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 25px;
+  row-gap: 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: "Afacad", sans-serif;
+}
+body #header #navBar #navBarlist > p {
+  height: 20px;
+  margin: 0;
+}
+body #header #navBar #navBarlist > a {
+  text-decoration: none;
+  color: black;
+}
+body #header #navBar #navBarlist > a p {
+  height: 20px;
+  margin: 0;
+}
+body #header #navBar #navBarlist .bold {
+  font-weight: 700;
+}
+body #header #navBar #contactUS {
+  padding-top: 20px;
+  font-family: "Afacad", sans-serif;
+}
+body form {
+  font-size: 1.2rem;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+body form label {
+  display: block;
+  margin-bottom: 8px;
+}
+body form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+body form input[type=submit] {
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #27ae60;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  font-family: "Afacad", sans-serif;
+}
+body form input[type=submit]:active {
+  box-shadow: #d6d6e7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+body form input[type=submit]:active:hover {
+  background-color: #27ae60;
+}
+body form #flexbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
+}
+body form #flexbox label {
+  margin-right: 50px;
+  display: block;
+}
+body form #flexbox input {
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+}
+body form #flexbox #cardCvv {
+  width: 160px;
+}
+body form #flexbox #cardyear {
+  width: 160px;
+}
+body #footer {
+  margin-top: 3rem;
+  background-color: #f9f9f9;
+}
+body #footer #footer1 {
+  font-family: "Afacad", sans-serif;
+  padding: 0 30px;
+  display: flex;
+  height: 150px;
+  align-items: center;
+}
+body #footer #footer1 div {
+  padding: 20px;
+  font-size: 30px;
+  width: 25%;
+}
+body #footer #footer1 #socials {
+  width: 25%;
+}
+body #footer #footer1 #socials a {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+body #footer #footer1 #socials a img {
+  width: 25px;
+  margin: 25%;
+}
+body #footer #footer1 #emailInput {
+  height: 40px;
+  width: 250px;
+  border-radius: 20px;
+  border-style: none;
+  padding-left: 10px;
+}
+body #footer #footer1 .material-symbols-outlined {
+  background-color: black;
+  color: white;
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+  position: absolute;
+  margin-left: -44px;
+  border-radius: 50%;
+}
+body #footer hr {
+  width: 90%;
+}
+body #footer #footer2 {
+  font-family: "Afacad", sans-serif;
+  display: flex;
+  padding: 0 50px;
+}
+body #footer #footer2 #desc {
+  width: 40%;
+}
+body #footer #footer2 #desc p {
+  width: 200px;
+}
+body #footer #footer2 #contact {
+  width: 30%;
+}
+body #footer #footer2 #company {
+  width: 15%;
+}
+body #footer #footer2 #resource {
+  width: 15%;
+}
+body #footer #footer3 {
+  font-family: "Afacad", sans-serif;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  padding: 0 50px;
+}
+body #footer #footer3 #copyright {
+  width: 50%;
+}
+body #footer #footer3 #supportePayments {
+  display: flex;
+}
+body #footer #footer3 img {
+  width: 120px;
+}/*# sourceMappingURL=payment.css.map */
