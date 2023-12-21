@@ -1,8 +1,8 @@
 let container = document.getElementById("searchResults");
 let buttons = document.getElementById("buttons");
 // localStorage.removeItem("event");
-// let url = "http://localhost:3001/countries"
-let url = "https://byte-harmony-2098.onrender.com/countries"
+let url = "http://localhost:3001/countries"
+// let url = "https://byte-harmony-2098.onrender.com/countries"
 let places = [];
 
 // fetchData(url,"country",selectedCountry)
@@ -55,7 +55,9 @@ function addData(spot,i) {
         title.textContent = spot.title;
     
         let price = create("p");
-        price.innerHTML = `Price<span id="pricePerPerson">  Per  Person : </span> ${spot.price}.00$`;
+    // price.innerHTML = `Price<span id="pricePerPerson">  Per  Person : </span> ${spot.price}.00$`;
+    
+        price.innerHTML = `Price<span id="pricePerPerson">  Per  Person : </span> Rs.${spot.price*80}.00`;
          
         let location = create("p");
         location.textContent = `${spot.district}, ${spot.state}`;

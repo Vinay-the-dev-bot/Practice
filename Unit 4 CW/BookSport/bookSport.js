@@ -6,8 +6,10 @@ var inc = () => {
   let allPrice = document.getElementById("priceforAll");
   let noOfPeople = document.getElementById("display").value;
   let pricePerEvent = document.getElementById("price");
-  let price = Number(noOfPeople) * parseInt(pricePerEvent.textContent);
-  allPrice.textContent = `Total Amount for ${noOfPeople} people is $${price}.00`;
+  let event = JSON.parse(localStorage.getItem("event"))
+  let price = Number(noOfPeople) * Number(80)*parseInt(event.price);
+  // allPrice.textContent = `Total Amount for ${noOfPeople} people is $${price}.00`;
+  allPrice.textContent = `Total Amount for ${noOfPeople} people is Rs.${price}.00`;
   // Total Amount for ${noOfPeople} people is $${x}.00
 }
 
@@ -22,8 +24,10 @@ var dec = () => {
   let allPrice = document.getElementById("priceforAll");
   let noOfPeople = document.getElementById("display").value;
   let pricePerEvent = document.getElementById("price");
-  let price = Number(noOfPeople) * parseInt(pricePerEvent.textContent);
-  allPrice.textContent = `Total Amount for ${noOfPeople} people is $${price}.00`;
+  let event = JSON.parse(localStorage.getItem("event"))
+  let price = Number(noOfPeople) * Number(80)*parseInt(event.price);
+  // allPrice.textContent = `Total Amount for ${noOfPeople} people is $${price}.00`;
+  allPrice.textContent = `Total Amount for ${noOfPeople} people is Rs.${price}.00`;
 }
 
 function setMinDate() {
@@ -51,18 +55,21 @@ function loadEventData(){
     location.textContent = `${event.district}, ${event.state}`;
     
     let price = document.getElementById("price");
-    price.textContent = `${event.price}.00 $`
+    price.textContent = `Rs. ${event.price*80}.00`
     setMinDate();
 }
 loadEventData();  
 
 
 document.getElementById("availability").addEventListener("click", () => { 
+  
+  let event = JSON.parse(localStorage.getItem("event"))
+  
     let date = document.getElementById("eventDate").value;
      let noOfPeople = document.getElementById("display").value; 
      let pricePerOne = document.getElementById("price").textContent; 
     let date2 = date.substring(date.length - 2)
-    let x = parseInt(pricePerOne) * Number(noOfPeople) 
+    let x = event.price * Number(noOfPeople) 
     let availableOrNot = document.getElementById("availableOrNot")
     if ((Number(date2)) % 2 == 0) {
         availableOrNot.innerHTML = "";
@@ -72,7 +79,7 @@ document.getElementById("availability").addEventListener("click", () => {
 
       let priceforAll = create("p");
       priceforAll.setAttribute("id", "priceforAll");
-        priceforAll.textContent = `Total Amount for ${noOfPeople} people is $${x}.00`;
+        priceforAll.textContent = `Total Amount for ${noOfPeople} people is Rs.${x*80}.00`;
         availableOrNot.appendChild(priceforAll)
 
         let book = create("a");

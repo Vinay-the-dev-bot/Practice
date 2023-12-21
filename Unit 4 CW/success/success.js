@@ -30,7 +30,8 @@ function loadEventData() {
 
   let price = document.getElementById('price')
   // price.textContent = `${bookingDetails.totalPrice}.00 $`
-  price.textContent = `${priceForAll}.00 $`
+  // price.textContent = `${priceForAll}.00 $`
+  price.textContent = `Rs. ${priceForAll*80}.00`
 
   let noofppl = document.getElementById('noofppl')
   noofppl.textContent = `${numOfPeople}`
@@ -56,7 +57,11 @@ function tvData() {
   let name=document.createElement("td")
   name.textContent=el.name;
   let gender=document.createElement("td")
-  gender.textContent=el.gender;
+    // gender.textContent = el.gender;
+    if (el.gender == "male") gender.textContent = "Male"
+    else  gender.textContent = "Female"
+    
+
   let age=document.createElement("td")
   age.textContent=el.age;
     
